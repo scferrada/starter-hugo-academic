@@ -1,6 +1,6 @@
 ---
 widget: header
-widget_id: my-widget-123
+widget_id: home
 headless: true
 weight: 10
 title: Sebastián Ferrada

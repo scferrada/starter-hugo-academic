@@ -2,9 +2,9 @@
 avatar_filename: 20221001_133341.jpg
 bio: ""
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Multimedia Databases
+  - Graph Databases and Knowledge Bases
+  - (Federated) Data Management
 social:
   - icon: twitter
     icon_pack: fab
@@ -44,7 +44,7 @@ last_name: Wu
 role: Postdoctoral Researcher
 highlight_name: true
 title: Sebastián Ferrada
-first_name: Alice
+first_name: Sebastián
 email: ""
 ---
 Hola! I'm Sebastián, a Postdoctoral Researcher at the Department of Computer Science of Universidad de Chile. I'm doing research on Multimodal Knowledge Graphs and Federated Graph databases.

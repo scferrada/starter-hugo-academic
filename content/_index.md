@@ -1,8 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
-title: Sebastián Ferrada
-date: 2022-10-24
-type: landing
+title: "Sebastián Ferrada"
+date: "2022-10-24"
+type: "landing"
 
 sections:
   - block: about.biography

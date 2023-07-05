@@ -11,18 +11,19 @@ publication_types:
   - "0"
 authors:
   - admin
+  - Nicolás Bravo
   - Aidan Hogan
   - Benjamin Bustos
 url_dataset: https://imgpedia.dcc.uchile.cl
 url_project: https://imgpedia.dcc.uchile.cl
-publication_short: In *ISWC 2017 Posters*
+# publication_short: In *ISWC 2017 Posters*
 url_source: ""
 url_video: ""
-publication: In *16th International Semantic Web Conference Poster and Demo*
+publication: In *Companion of The Web Conference*
 featured: false
 date: 2017-10-01T00:00:00Z
 url_slides: ""
-title: Answering Visuo-Semantic Queries with IMGpedia.
+title: Querying Wikimedia Images using Wikidata Facts
 tags:
   - IMGpedia
 projects:

@@ -1,8 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Sebastián Ferrada"
-date: "2022-10-24"
-type: "landing"
+title: 
+date: 2022-10-24
+type: landing
 
 sections:
   - block: about.biography
@@ -26,10 +26,7 @@ sections:
     id: Publications
     content:
       title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      text:
       filters:
         folders:
           - publication

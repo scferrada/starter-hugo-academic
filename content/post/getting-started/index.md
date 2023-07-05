@@ -1,110 +1,133 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
-
-# Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
-
-# Link this post with a project
-projects: []
-
-# Date published
-date: '2020-12-13T00:00:00Z'
-
-# Date updated
-lastmod: '2020-12-13T00:00:00Z'
-
-# Is this an unpublished draft?
+summary: ""
 draft: false
-
-# Show this page in the Featured widget?
-featured: false
-
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ''
-  placement: 2
-  preview_only: false
-
 authors:
   - admin
-  - 吳恩達
-
+lastmod: 2020-12-13T00:00:00Z
+title: Llaves y Dependencias Funcionales
+subtitle: ""
+date: 2020-12-13T00:00:00Z
+featured: false
 tags:
-  - Academic
-  - 开源
-
-categories:
-  - Demo
-  - 教程
+  - Bases de datos
+  - llaves
+  - diseño relacional
+categories: []
+projects: []
+image:
+  caption: ""
+  focal_point: ""
+  placement: 2
+  preview_only: false
 ---
+Este post provee de una introducción al concepto de llaves y dependencias funcionales en el campo de la teoría de las bases de datos relacionales. Está guiado por ejemplos, pero se presentan también algunas de las formalidades matemáticas. Si encuentras algún error o hay algo que no se logra entender muy bien, por favor deja un comentario debajo.
 
-```python
-import libr
-print('hello')
-```
+## Llaves
 
-## Overview
+En el modelo relacional trabajamos con conjuntos de tuplas que se almacenan en una relación dada. Como en un conjunto no se permiten elementos repetidos es necesario que cada tupla tenga una forma de identificarse y diferenciarse de las otras. La forma de identificar
+tuplas es utilizando el concepto de llave:
+-**Una llave es un conjunto de atributos de una relación, tal que ningún par de tuplas de la relación tiene los mismos valores en dichos atributos**
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+Por ejemplo, consideremos los datos de la Tabla 1. Una llave trivial para cualquier relación es el conjunto de todos los atributos. En este caso {vino, año, cepa, presentación}. Una llave más pequeña puede ser ${vino, cepa}$ o ${año, presentación}$ (considerando solo estos datos). Dicho lo anterior, es conveniente recalcar que las llaves no deben seleccionarse condicionadas a los datos, sino que considerando la semántica
+de las relaciones y atributos.
 
-[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://wowchemy.com)
+<table>
+<thead>
+<tr>
+<th>Vino</th>
+<th>año</th>
+<th>cepa</th>
+<th>presentación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>130</td>
+<td>2018</td>
+<td>Cabernet</td>
+<td>750cc</td>
+</tr>
+<tr>
+<td>Clos de Paine</td>
+<td>2014</td>
+<td>Cabernet</td>
+<td>750cc</td>
+</tr>
+<tr>
+<td>Santelena</td>
+<td>2018</td>
+<td>Sauvignon Blanc</td>
+<td>2000cc</td>
+</tr>
+</tbody>
+</table>
 
-## Get Started
+Ahora vamos con un par de definiciones. Una **superllave** es cualquier llave de una relación. Todas las mencionadas en el ejemplo son superllaves. Muchas veces se prefiere contar con una llave lo más pequeña posible, pues es necesario que podamos comparar rápidamente un par de tuplas para determinar si son idénticas o no. Para esto, introducimos la noción de **llave candidata**. Una llave candidata es una superllave tal que
+ningún subconjunto propio de ella también sea superllave, es decir, es minimal. Por ejemplo ${vino, año, cepa, presentación}$ es una superllave pero no una llave candidata, pues ${vino, cepa}$ también es una superllave. Esta última tampoco es llave candidata porque ${nombre}$ también es superllave. Finalmente, ${nombre}$ si es llave candidata, debido a que no hay subconjuntos propios posibles que sean también llave.
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
+Un atributo que pertenece a una llave candidata se llama atributo primo.
 
-## Crowd-funded open-source software
+Para terminar, una **llave primaria** es alguna de las llaves candidatas que se selecciona como la forma estándar de determinar la igualdad entre tuplas.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+Es necesario notar en este punto, que una relación puede entonces tener más de una llave candidata y estas llaves pueden tener distinta cantidad de atributos. Consideremos el siguiente esquema para almacenar datos de personas:
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/)
+* **Persona**(RUT, nombre, fecha_hora_nacimiento, RUT_padre, RUT_madre)
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
+Las llaves candidatas son ${RUT}$ y ${RUT_madre, fecha_hora_nacimiento}$. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Como podemos apreciar, la segunda llave es minimal en el sentido de que no hay un subconjunto de esos atributos que también sea llave, por lo que es una llave candidata a pesar de tener una cantidad de atributos más grande que ${RUT}$. Sin embargo, probablemente se prefiera utilizar simplemente el RUT como llave primaria porque en este caso es lo más
+"natural" además que siempre es mejor tener menos elementos que comparar.
 
-## Ecosystem
+## Dependencias Funcionales
 
-- **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+Dados dos conjuntos de atributos de un esquema relacional $X$ e $Y$, se dice que $Y$ depende funcionalmente de $X$ si para todo par de tuplas $t_1, t_2$ del esquema se cumple que si $t_1\[X]=t_2\[X]$ entonces $t_1\[Y]=t_2\[Y]$. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Es decir, para cada valor de $X$
+hay un único valor de $Y$ posible. Cuando $X$ determina funcionalmente a Y se escribe $X \rightarrow Y$. Cuando $Y$ es un subconjunto de $X$ se dice que la dependencia funcional es trivial.
 
-## Inspiration
+Conocer las dependencias funcionales de un esquema es importante para el diseño relacional, pues nos ayudan a determinar si las relaciones propuestas por un modelo pueden o no presentar anomalías. 
 
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
+Inicialmente, se sabe que una llave candidata determina funcionalmente a todos los atributos. Sin embargo, es posible que otros atributos se determinen entre ellos. Supongamos que contamos con la siguiente información de contacto:
 
-## Features
+* **Contacto**(RUT, email, dirección, comuna, región)
 
-- **Page builder** - Create _anything_ with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/content/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/content/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+Claramente el RUT e email son llaves candidatas y, por lo tanto, determinan funcionalmente a todo el resto de los atributos. Por otro lado también sabemos que una comuna se encuentra en una sola región y entonces dos contactos de la misma comuna van a estar necesariamente
+en la misma región. Entonces sabemos que {comuna} $\rightarrow$ {región}. Como los nombres de calles pueden repetirse entre comunas, podemos descartar la dependencia {dirección} $\rightarrow$ {comuna}.
 
-## Themes
+Cuando un esquema cuenta con varias dependencias funcionales, podemos razonar lógicamente sobre ellas y concluir otras dependencias nuevas y coherentes con el esquema. Existe un conjunto de reglas de razonamiento que nos permite obtener el conjunto completo de dependencias funcionales de un esquema, a partir de un conjunto inicial. Estas reglas se conocen como los axiomas de Armstrong. Sea $(R, F)$ un esquema de relación $R$ y dependencias funcionales $F$. Se puede obtener el conjunto de todas las dependencias funcionales deducibles desde $F$, es decir, su clausura $F^+$ aplicando las siguientes reglas:
 
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
+Sean $X$, $Y$, $Z$, $A$ y $B$ conjuntos de atributos de $R$:
 
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
+* Reflexión: Si $Y\subseteq X$, entonces $X\rightarrow Y$
+* Aumento: Si $X\rightarrow Y$, entonces $XZ\rightarrow YZ$ para cualquier $Z$
+* Transitividad: Si $X\rightarrow Y$ e $Y\rightarrow Z$, entonces $X\rightarrow Z$
+* Descomposición: Si $X\rightarrow YZ$, entonces $X\rightarrow Y$ y $X\rightarrow Z$
+* Composición: Si $X\rightarrow Y$ y $A\rightarrow B$, entonces $XA\rightarrow YB$
+* Pseudo transitividad: Si $X\rightarrow Y$ y $YZ\rightarrow A$, entonces $XZ\rightarrow A$
+* Autodeterminación: $X\rightarrow X$
+* Extensión: Si $X\rightarrow Y$, entonces $X\rightarrow XY$
 
-## License
+Los axiomas de Armstrong son especialmente útiles para encontrar las llaves candidatas de las relaciones, pues basta con encontrar aquellos conjuntos de atributos que determinan funcionalmente a todos los demás. Por ejemplo consideremos $R(A,B,C,D,E)$ y las siguientes
+dependencias:
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+* $A\rightarrow E$
+* $BC\rightarrow D$
+* $E\rightarrow B$
 
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md) license.
+Por transitividad, sabemos que $A\rightarrow B$ y por aumento que $AC\rightarrow CE$ y $AC\rightarrow BC$. Nuevamente la transitividad nos indica que $AC\rightarrow D$. Finalmente, uniendo todos los resultados, tenemos que $AC\rightarrow ABCDE$, por lo que
+$AC$ es la llave de $R$. Este proceso de aplicar reglas exhaustivamente a un conjunto de atributos para encontrar todos los otros que son determinados funcionalmente por ellos, se llama calcular la clausura de ese conjunto de atributos. En este caso $AC^+$.
+
+Tal vez haya parecido un procedimiento antojadizo, pero la intuición detrás del éste es seleccionar los atributos que no aparecen en el lado derecho de las dependencias para comenzar. En este caso $A$ y $C$.
+
+### Referencias
+
+1. Armstrong, William. Dependency Structures of Data Base Relationships, page 580-583. IFIP Congress, 1974.
+2. Ramakrishnan, Raghu, and Johannes Gehrke. Database management systems. McGraw Hill, 2000.
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+${RUT_padre, fecha_hora_nacimiento}$ no se considera, pues puede suceder que un hombre tenga hijos con dos mujeres distintas que por coincidencia nacieron el mismo día y a la misma hora.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+En este artículo se considera que si $t$ es una tupla y $X$ es un conjunto atributos, la operación $t\\[X]$ corresponde a la proyección de los atributos $X$ de la tupla $t$, es decir $\pi_X(t)$&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>
+</li>
+</ol>
+</div>

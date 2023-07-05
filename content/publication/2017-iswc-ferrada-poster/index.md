@@ -1,20 +1,19 @@
 ---
-title: 'IMGpedia: Enriching the Web of Data with Image Content Analysis'
+title: 'Answering Visuo-Semantic Queries with IMGpedia.'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Aidan Hogan
-  - Benjamin Bustos
+  - Robert Ford
 
 # Author notes (optional)
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2016-06-01T00:00:00Z'
+date: '2017-10-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,15 +26,15 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *10th Alberto Mendelzon International Workshop on Data Management and the Web*
-publication_short: In *AMW 2016*
+publication: In *16th International Semantic Web Conference Poster and Demo*
+publication_short: In *ISWC 2017 Posters*
 
-abstract: Linked Data rarely takes into account multimedia content, which forms a central part of the Web. To explore the combination of Linked Data and multimedia, we are developing IMGpedia: we compute content-based descriptors for images used in Wikipedia articles and subsequently propose to link these descriptions with legacy encyclopaedic knowledge-bases such as DBpedia and Wikidata. On top of this extended knowledge-base, our goal is to consider a unified query system that accesses both the encyclopaedic data and the image data. We could also consider enhancing the encyclopaedic knowledge based on rules applied to co-occurring entities in images, or content-based analysis, for example. Abstracting away from IMG-pedia, we explore generic methods by which the content of images on the Web can be described in a standard way and can be considered as first-class citizens on the Web of Data, allowing, for example, for combining structured queries with image similarity search. This short paper thus describes ongoing work on IMGpedia, with focus on image descriptors.
+abstract: IMGpedia is a linked dataset that provides a public SPARQL endpoint where users can answer queries that combine the visual similarity of images from Wikimedia Commons and semantic information from existing knowledge-bases. Our demo will show example queries that capture the potential of the current data stored in IMGpedia. We also plan to discuss potential use-cases for the dataset and ways in which we can improve the quality of the information it captures and the expressiveness of its queries.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [IMGpedia, knowledge-base, Wikipedia]
+tags: [IMGpedia]
 
 # Display this page in the Featured widget?
 featured: false
@@ -45,14 +44,14 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'imgpediaamw.pdf'
+url_pdf: ''
 url_code: 'https://github.com/scferrada/imgpedia'
 url_dataset: 'https://imgpedia.dcc.uchile.cl'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-#url_video: 'https://youtube.com'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -76,13 +75,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 #slides: example
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-#{{% callout note %}}
-#Create your slides in Markdown - click the _Slides_ button to check out the example.
-#{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).

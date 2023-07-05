@@ -1,6 +1,5 @@
 ---
-avatar_filename: "20221001_133341.jpg"
-bio: ""
+bio: "Research. Coffee. Lifting."
 interests:
   - Multimedia Databases
   - Graph Databases and Knowledge Bases

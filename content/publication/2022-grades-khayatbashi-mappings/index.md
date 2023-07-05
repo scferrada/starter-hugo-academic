@@ -35,7 +35,12 @@ abstract: Today's space of graph database solutions is characterized by two main
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Property Graphs, RDF, RDF-star, Mappings, Interoperability]
+tags: 
+  - Property Graphs
+  - RDF
+  - RDF-star
+  - Mappings
+  - Interoperability
 
 # Display this page in the Featured widget?
 featured: false

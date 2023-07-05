@@ -35,7 +35,7 @@ abstract: IMGpedia is a large-scale linked dataset that incorporates visual info
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Imgpedia, DBpedia, Wikipedia, Multimodal Knowledge-base]
+tags: [IMGpedia, DBpedia, Wikipedia, Multimodal Knowledge-base]
 
 # Display this page in the Featured widget?
 featured: true
@@ -49,17 +49,17 @@ url_pdf: ''
 url_code: 'https://github.com/scferrada/imgpedia'
 url_dataset: 'https://imgpedia.dcc.uchile.cl'
 url_poster: ''
-url_project: ''
+url_project: 'https://imgpedia.dcc.uchile.cl'
 url_slides: ''
 url_source: ''
 url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#  focal_point: ''
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

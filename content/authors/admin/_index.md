@@ -40,7 +40,7 @@ education:
 superuser: true
 status:
   icon: ☕️
-last_name: Wu
+last_name: Ferrada
 role: Postdoctoral Researcher
 highlight_name: true
 title: Sebastián Ferrada

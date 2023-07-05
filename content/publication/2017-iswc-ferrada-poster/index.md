@@ -6,7 +6,8 @@ title: 'Answering Visuo-Semantic Queries with IMGpedia.'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Aidan Hogan
+  - Benjamin Bustos
 
 # Author notes (optional)
 #author_notes:
@@ -48,7 +49,7 @@ url_pdf: ''
 url_code: 'https://github.com/scferrada/imgpedia'
 url_dataset: 'https://imgpedia.dcc.uchile.cl'
 url_poster: ''
-url_project: ''
+url_project: 'https://imgpedia.dcc.uchile.cl'
 url_slides: ''
 url_source: ''
 url_video: ''

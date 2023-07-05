@@ -1,5 +1,5 @@
 ---
-title: 'Converting Property Graphs to RDF: A Preliminary Study of the Practical Impact of Different Mappings'
+title: "Converting Property Graphs to RDF: A Preliminary Study of the Practical Impact of Different Mappings"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -27,10 +27,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['0']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Joint Workshop on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA)*
-publication_short: In *(GRADES-NDA'22)*
+publication: "In *Joint Workshop on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA)*"
+publication_short: "In *(GRADES-NDA'22)*"
 
-abstract: Today's space of graph database solutions is characterized by two main technology stacks that have evolved separate from one another: on one hand, there are systems that focus on supporting the RDF family of standards; on the other hand, there is the Property Graph category of systems. As a basis for bringing these stacks together and, in particular, to facilitate data exchange between the different types of systems, different direct mappings between the underlying graph data models have been introduced in the literature. While fundamental properties are well-documented for most of these mappings, the same cannot be said about the practical implications of choosing one mapping over another. Our research aims to contribute towards closing this gap. In this paper we report on a preliminary study for which we have selected two direct mappings from (Labeled) Property Graphs to RDF, where one of them uses features of the RDF-star extension to RDF. We compare these mappings in terms of the query performance achieved by two popular commercial RDF stores, GraphDB and Stardog, in which the converted data is imported. While we find that, for both of these systems, none of the mappings is a clear winner in terms of guaranteeing better query performance, we also identify types of queries that are problematic for the systems when using one mapping but not the other.
+abstract: "Today's space of graph database solutions is characterized by two main technology stacks that have evolved separate from one another: on one hand, there are systems that focus on supporting the RDF family of standards; on the other hand, there is the Property Graph category of systems. As a basis for bringing these stacks together and, in particular, to facilitate data exchange between the different types of systems, different direct mappings between the underlying graph data models have been introduced in the literature. While fundamental properties are well-documented for most of these mappings, the same cannot be said about the practical implications of choosing one mapping over another. Our research aims to contribute towards closing this gap. In this paper we report on a preliminary study for which we have selected two direct mappings from (Labeled) Property Graphs to RDF, where one of them uses features of the RDF-star extension to RDF. We compare these mappings in terms of the query performance achieved by two popular commercial RDF stores, GraphDB and Stardog, in which the converted data is imported. While we find that, for both of these systems, none of the mappings is a clear winner in terms of guaranteeing better query performance, we also identify types of queries that are problematic for the systems when using one mapping but not the other."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -38,7 +38,7 @@ abstract: Today's space of graph database solutions is characterized by two main
 tags: 
   - Property Graphs
   - RDF
-  - RDF-star
+  - "RDF-star"
   - Mappings
   - Interoperability
 

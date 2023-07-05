@@ -1,5 +1,5 @@
 ---
-avatar_filename: 20221001_133341.jpg
+avatar_filename: "20221001_133341.jpg"
 bio: ""
 interests:
   - Multimedia Databases

@@ -3,10 +3,10 @@ summary: ""
 draft: false
 authors:
   - admin
-lastmod: 2020-12-13T00:00:00Z
+lastmod: 2020-12-13T00:00:00.000Z
 title: Llaves y Dependencias Funcionales
 subtitle: ""
-date: 2020-12-13T00:00:00Z
+date: 2020-12-13T00:00:00.000Z
 featured: false
 tags:
   - Bases de datos
@@ -26,9 +26,10 @@ Este post provee de una introducción al concepto de llaves y dependencias funci
 
 En el modelo relacional trabajamos con conjuntos de tuplas que se almacenan en una relación dada. Como en un conjunto no se permiten elementos repetidos es necesario que cada tupla tenga una forma de identificarse y diferenciarse de las otras. La forma de identificar
 tuplas es utilizando el concepto de llave:
--**Una llave es un conjunto de atributos de una relación, tal que ningún par de tuplas de la relación tiene los mismos valores en dichos atributos**
 
-Por ejemplo, consideremos los datos de la Tabla 1. Una llave trivial para cualquier relación es el conjunto de todos los atributos. En este caso {vino, año, cepa, presentación}. Una llave más pequeña puede ser ${vino, cepa}$ o ${año, presentación}$ (considerando solo estos datos). Dicho lo anterior, es conveniente recalcar que las llaves no deben seleccionarse condicionadas a los datos, sino que considerando la semántica
+\-**Una llave es un conjunto de atributos de una relación, tal que ningún par de tuplas de la relación tiene los mismos valores en dichos atributos**
+
+Por ejemplo, consideremos los datos de la Tabla 1. Una llave trivial para cualquier relación es el conjunto de todos los atributos. En este caso {vino, año, cepa, presentación}. Una llave más pequeña puede ser {vino, cepa} o {año, presentación} (considerando solo estos datos). Dicho lo anterior, es conveniente recalcar que las llaves no deben seleccionarse condicionadas a los datos, sino que considerando la semántica
 de las relaciones y atributos.
 
 <table>
@@ -63,7 +64,7 @@ de las relaciones y atributos.
 </table>
 
 Ahora vamos con un par de definiciones. Una **superllave** es cualquier llave de una relación. Todas las mencionadas en el ejemplo son superllaves. Muchas veces se prefiere contar con una llave lo más pequeña posible, pues es necesario que podamos comparar rápidamente un par de tuplas para determinar si son idénticas o no. Para esto, introducimos la noción de **llave candidata**. Una llave candidata es una superllave tal que
-ningún subconjunto propio de ella también sea superllave, es decir, es minimal. Por ejemplo ${vino, año, cepa, presentación}$ es una superllave pero no una llave candidata, pues ${vino, cepa}$ también es una superllave. Esta última tampoco es llave candidata porque ${nombre}$ también es superllave. Finalmente, ${nombre}$ si es llave candidata, debido a que no hay subconjuntos propios posibles que sean también llave.
+ningún subconjunto propio de ella también sea superllave, es decir, es minimal. Por ejemplo {vino, año, cepa, presentación} es una superllave pero no una llave candidata, pues {vino, cepa} también es una superllave. Esta última tampoco es llave candidata porque {nombre} también es superllave. Finalmente, {nombre} si es llave candidata, debido a que no hay subconjuntos propios posibles que sean también llave.
 
 Un atributo que pertenece a una llave candidata se llama atributo primo.
 
@@ -73,7 +74,7 @@ Es necesario notar en este punto, que una relación puede entonces tener más de
 
 * **Persona**(RUT, nombre, fecha_hora_nacimiento, RUT_padre, RUT_madre)
 
-Las llaves candidatas son ${RUT}$ y ${RUT_madre, fecha_hora_nacimiento}$. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Como podemos apreciar, la segunda llave es minimal en el sentido de que no hay un subconjunto de esos atributos que también sea llave, por lo que es una llave candidata a pesar de tener una cantidad de atributos más grande que ${RUT}$. Sin embargo, probablemente se prefiera utilizar simplemente el RUT como llave primaria porque en este caso es lo más
+Las llaves candidatas son {RUT} y {RUT_madre, fecha_hora_nacimiento}. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Como podemos apreciar, la segunda llave es minimal en el sentido de que no hay un subconjunto de esos atributos que también sea llave, por lo que es una llave candidata a pesar de tener una cantidad de atributos más grande que {RUT}. Sin embargo, probablemente se prefiera utilizar simplemente el RUT como llave primaria porque en este caso es lo más
 "natural" además que siempre es mejor tener menos elementos que comparar.
 
 ## Dependencias Funcionales
@@ -87,8 +88,7 @@ Inicialmente, se sabe que una llave candidata determina funcionalmente a todos l
 
 * **Contacto**(RUT, email, dirección, comuna, región)
 
-Claramente el RUT e email son llaves candidatas y, por lo tanto, determinan funcionalmente a todo el resto de los atributos. Por otro lado también sabemos que una comuna se encuentra en una sola región y entonces dos contactos de la misma comuna van a estar necesariamente
-en la misma región. Entonces sabemos que {comuna} $\rightarrow$ {región}. Como los nombres de calles pueden repetirse entre comunas, podemos descartar la dependencia {dirección} $\rightarrow$ {comuna}.
+Claramente el RUT e email son llaves candidatas y, por lo tanto, determinan funcionalmente a todo el resto de los atributos. Por otro lado también sabemos que una comuna se encuentra en una sola región y entonces dos contactos de la misma comuna van a estar necesariamente en la misma región. Entonces sabemos que {comuna} $\rightarrow$ {región}. Como los nombres de calles pueden repetirse entre comunas, podemos descartar la dependencia {dirección} $\rightarrow$ {comuna}.
 
 Cuando un esquema cuenta con varias dependencias funcionales, podemos razonar lógicamente sobre ellas y concluir otras dependencias nuevas y coherentes con el esquema. Existe un conjunto de reglas de razonamiento que nos permite obtener el conjunto completo de dependencias funcionales de un esquema, a partir de un conjunto inicial. Estas reglas se conocen como los axiomas de Armstrong. Sea $(R, F)$ un esquema de relación $R$ y dependencias funcionales $F$. Se puede obtener el conjunto de todas las dependencias funcionales deducibles desde $F$, es decir, su clausura $F^+$ aplicando las siguientes reglas:
 
@@ -127,7 +127,7 @@ Tal vez haya parecido un procedimiento antojadizo, pero la intuición detrás de
 ${RUT_padre, fecha_hora_nacimiento}$ no se considera, pues puede suceder que un hombre tenga hijos con dos mujeres distintas que por coincidencia nacieron el mismo día y a la misma hora.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-En este artículo se considera que si $t$ es una tupla y $X$ es un conjunto atributos, la operación $t\\[X]$ corresponde a la proyección de los atributos $X$ de la tupla $t$, es decir $\pi_X(t)$&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>
+En este artículo se considera que si $t$ es una tupla y $X$ es un conjunto atributos, la operación $t\[X]$ corresponde a la proyección de los atributos $X$ de la tupla $t$, es decir $\pi_X(t)$&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>
 </li>
 </ol>
 </div>

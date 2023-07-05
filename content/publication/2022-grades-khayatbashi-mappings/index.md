@@ -7,7 +7,7 @@ title: "Converting Property Graphs to RDF: A Preliminary Study of the Practical 
 authors:
   - Shahrzad Khayatbashi
   - admin
-  - Olaf HArtig
+  - Olaf Hartig
 
 # Author notes (optional)
 #author_notes:

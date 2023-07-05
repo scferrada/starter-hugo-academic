@@ -22,7 +22,7 @@ publication: In *16th International Semantic Web Conference Poster and Demo*
 featured: false
 date: 2017-10-01T00:00:00Z
 url_slides: ""
-title: Answering Visuo-Semantic Queries with IMGpedia.
+title: Answering Visuo-Semantic Queries with IMGpedia
 tags:
   - IMGpedia
 projects:

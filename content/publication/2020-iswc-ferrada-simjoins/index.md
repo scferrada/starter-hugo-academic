@@ -1,5 +1,5 @@
 ---
-title: 'Extending SPARQL with Similarity Joins'
+title: "Extending SPARQL with Similarity Joins"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -27,15 +27,17 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *19th International Semantic Web Conference*
-publication_short: In *ISWC 2020*
+publication: "In *19th International Semantic Web Conference*"
+publication_short: "In *ISWC 2020*"
 
-abstract: We propose techniques that support the efficient computation of multidimensional similarity joins in an RDF/SPARQL setting, where similarity in an RDF graph is measured with respect to a set of attributes selected in the SPARQL query. While similarity joins have been studied in other contexts, RDF graphs present unique challenges. We discuss how a similarity join operator can be included in the SPARQL language, and investigate ways in which it can be implemented and optimised. We devise experiments to compare three similarity join algorithms over two datasets. Our results reveal that our techniques outperform DBSimJoin: a PostgreSQL extension that supports similarity joins.
+abstract: "We propose techniques that support the efficient computation of multidimensional similarity joins in an RDF/SPARQL setting, where similarity in an RDF graph is measured with respect to a set of attributes selected in the SPARQL query. While similarity joins have been studied in other contexts, RDF graphs present unique challenges. We discuss how a similarity join operator can be included in the SPARQL language, and investigate ways in which it can be implemented and optimised. We devise experiments to compare three similarity join algorithms over two datasets. Our results reveal that our techniques outperform DBSimJoin: a PostgreSQL extension that supports similarity joins."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Similarity Joins, SPARQL]
+tags: 
+  - Similarity Joins
+  - SPARQL 
 
 # Display this page in the Featured widget?
 featured: true

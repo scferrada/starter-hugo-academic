@@ -32,7 +32,7 @@ sections:
         exclude_featured: false
     design:
       columns: '2'
-      view: list
+      view: citation
     - block: portfolio
     id: projects
     content:

@@ -32,12 +32,12 @@ Descargar los 14,7 millones de imágenes nos tomó 40 días con múltiples conex
 Como se puede ver en la Figura 1, nuestro objetivo es enlazar las imágenes que sean visualmente similares. Para hacer esto, tomamos un descriptor y encontramos sus 10 vecinos más cercanos, pues asumimos que si dos vectores están cerca, es por que son similares. Esta decisión de tomar los <em>k</em> vecinos más cercanos ha generado mucha discusión, pero si están interesados, hay una reflexión al respecto al final del post.
 
 <img src="/img/similarity.PNG" alt="Figura 1: Similitud entre imágenes" width="90%"/>
-<center>**Figura 1:** Similitud entre imágenes</center>
+<center><strong>Figura 1:</strong> Similitud entre imágenes</center>
 
 Luego, necesitamos obtener contexto de la imagen: saber qué es, cómo se llama lo que aparece en ella o con qué está relacionada. Para esto, usamos un <a href="https://dumps.wikimedia.org/" target="_blank" rel="noopener">dump</a> de la Wikipedia en inglés para reunir los pares <code>(nombre_img, nombre_wiki)</code> de modo que la imagen aparece en la wiki. Entonces enlazamos la imagen con el recurso de DBpedia relacionado al articulo de Wikipedia correspondiente. Por ahora, nada nos asegura que la imagen realmente contenga a la entidad con la que está relacionada, pero sí podemos decir que la imagen está asociada a la entidad de alguna forma u otra. En la Figura 2 se muestra lo que se pretende hacer, por ejemplo si una imagen aparece en la <a href="http://en.wikipedia.org/wiki/Quentin_Tarantino" target="_blank" rel="noopener">wiki de Quentin Tarantino</a>, entonces enlazamos la imagen con el <a href="http://dbpedia.org/resource/Quentin_Tarantino" target="_blank" rel="noopener">recurso de Tarantino en DBpedia</a>.
 
 <img src="/img/context.PNG" alt="Figura 2: Obtener contexto de la imagen" width="90%"/>
-<center>**Figura 2:** Obtener contexto de la imagen</center>
+<center><strong>Figura 2:</strong> Obtener contexto de la imagen</center>
 
 Finalmente, publicamos todo en formato <a href="https://www.w3.org/2001/sw/wiki/RDF" target="_blank" rel="noopener">RDF</a> que puede ser consultado a través de un terminal público de <a href="https://www.w3.org/TR/sparql11-query/" target="_blank" rel="noopener">SPARQL</a>. Los datos tienen un cierto esquema para modelar clases y atributos que puede ser encontrado <a href="http://imgpedia.dcc.uchile.cl/ontology" target="_blank" rel="noopener">aquí</a>. En <a href="http://imgpedia.dcc.uchile.cl/sparql" target="_blank" rel="noopener">este terminal</a>, podemos hacer por ejemplo las siguientes consultas:
 
@@ -47,8 +47,9 @@ Finalmente, publicamos todo en formato <a href="https://www.w3.org/2001/sw/wiki/
 WHERE {
     im:Hopsten_Marktplatz_3.jpg imo:similar ?Target .
 }
-</code></pre><img src="/img/q1.PNG" alt="Figura 3: Resultados de la consulta a" width="90%"/>
-<center>**Figura 3:** Resultados de la consulta a</center>
+</code></pre>
+<img src="/img/q1.PNG" alt="Figura 3: Resultados de la consulta a" width="90%"/>
+<center><strong>Figura 3:</strong> Resultados de la consulta a</center>
 
 - Obtener imágenes de las pinturas hechas el siglo XVI, que están en exposición en el Louvre (ojo que también podemos obtener otros datos como el nombre de la pintura, quién la pintó, etc.):
 
@@ -64,7 +65,7 @@ WHERE {
 }
 </code></pre>
 <img src="/img/q2.PNG" alt="Figura 4: Resultados de la consulta b" width="90%"/>
-<center>**Figura 4:** Resultados de la consulta b</center>
+<center><strong>Figura 4:</strong> Resultados de la consulta b</center>
 
 - Finalmente podemos combinar ambos tipos de preguntas en una consulta que llamamos <em>visuo-semántica</em>, por ejemplo entre todas las imágenes de catedrales europeas, obtener imágenes similares que sean museos:
 
@@ -82,7 +83,7 @@ WHERE {
 }
 </code></pre>
 <img src="/img/q3.PNG" alt="Figura 5: Resultados de la consulta c" width="90%"/>
-<center>**Figura 5:** Resultados de la consulta c</center>
+<center><strong>Figura 5:</strong> Resultados de la consulta c</center>
 
 Tras mi defensa del Magister, este trabajo fue aceptado en el track de recursos de la 16ta Conferencia Internacional de la Web Semántica (ISWC) y viajé a Viena a presentarlo, puedes encontrar las diapositivas <a href="/pptx/iswc2017.pptx">aquí</a>. También participamos en la sesión de pósters, donde recibimos feedback y preguntas muy interesantes, puedes ver el póster <a href="/pdf/imgpediaISWCposter.pdf">aquí</a>. Tanto la presentación como la sesión de pósters fueron una gran oportunidad para validar nuestro trabajo, para saber cómo mejorarlo y para saber qué cree la comunidad que sería útil agregar. En resumen, dejo algunos puntos:
 
@@ -93,7 +94,7 @@ Tras mi defensa del Magister, este trabajo fue aceptado en el track de recursos 
 ¡Gracias a todos los que nos fueron a ver al stand!
 
 <img src="/img/posteriswc17.jpg" alt="Figura 6: Sesión de pósters" width="90%"/>
-<center>**Figura 6:** Sesión de pósters</center>
+<center><strong>Figura 6:</strong> Sesión de pósters</center>
 
 Para terminar con esta historia, el último día de conferencia anuncian a los ganadores de los mejores papers publicados en la conferencia. ¡<a href="https://iswc2017.semanticweb.org/program/awards/" target="_blank" rel="noopener">IMGpedia ganó dos premios</a>! Ganamos el premio al mejor póster y el premio al mejor paper de estudiante en el track de recursos (junto con BiOnIC). Este reconocimiento significa mucho para mi y para mi carrera de científico, ¡vaya forma de comenzar! Y más aún, porque los otros nominados son varios estudiantes de doctorado de centros y universidades reconocidos a nivel mundial, como la Universidad de Standford. Más aún cuando mi trabajo es una tesis de magíster, es increíble que haya competido contra otros trabajos de tan alto nivel. Además este premio, como el <a href="https://iswc2017.semanticweb.org/paper-359/" target="_blank" rel="noopener">mejor paper de estudiantes del track de investigación de ISWC</a> es un claro mensaje de que
 tenemos que seguir trabajando en multimedia, no podemos seguir dejando estos datos de lado.
@@ -103,7 +104,7 @@ Quiero destacar también el nivel de ciencia que se desarrolla en los institutos
 de investigación de la Web Semántica</a>, que en total nos llevamos 3 premios en ISWC (los dos de IMGpedia y el premio a mejor paper de investigación para Jorge Pérez).
 
 <img src="/img/awards.jpg" alt="Figura 7: Aidan y yo recibiendo el premio a mejor paper de estudiante" width="90%"/>
-<center>**Figura 7:** Aidan y yo recibiendo el premio a mejor paper de estudiante</center>
+<center><strong>Figura 7:</strong> Aidan y yo recibiendo el premio a mejor paper de estudiante</center>
 
 Solo me falta agradecer a todos los que hicieron este (arduo) trabajo posible, en especial a mis profesores guía, Benjamin y Aidan; a Sergio Aguilera por ayudarme tanto con la mantención del servidor; a Camila Faúndez por el trabajo enlazando las imágenes a sus respectivos artículos; al Núcleo Milenio <a href="http://ciws.cl" target="_blank" rel="noopener">Centro de Investigación de la Web Semántica</a>, por su apoyo financiero y académico; y a toda mi familia y amigos por su constante apoyo, motivación y cariño.
 <hr>

@@ -6,7 +6,7 @@ event_url: https://sicss.io/2023/chile/
 
 location: Campus San Joaquín, PUC Chile.
 
-abstract: 'Los grafos de conocimiento (GCs) han ido ganando popularidad tanto en la industria, como en la academia. En esta charla, además de introducir el concepto y los modelos de GC, se presentan diferentes temas de aplicación e investigación sobre GCs. Estos temas incluyen: Consulta, Razonamiento, Contexto y Veracidad de los Datos, y Aprendizaje de Máquinas. Tras la charla hay un taller para aprender a extraer datos desde Wikidata.'
+abstract: 'Los grafos de conocimiento (GCs) han ido ganando popularidad tanto en la industria, como en la academia. En esta charla, además de introducir el concepto y los modelos de GC, se presentan diferentes temas de aplicación e investigación sobre GCs. Estos temas incluyen: Consulta, Razonamiento, Contexto y Veracidad de los Datos, y Aprendizaje de Máquinas. Tras la charla hay un taller para aprender a extraer datos desde Wikidata (clic en el botón "Code" para ver un colab/notebook con las consultas).'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -15,7 +15,7 @@ date: '2023-06-18T09:30:00Z-03:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-01-01T00:00:00Z'
 
 authors: [admin]
 tags: ['Grafos de Conocimiento', 'Wikidata']

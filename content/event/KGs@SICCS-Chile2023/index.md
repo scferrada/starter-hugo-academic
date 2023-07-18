@@ -30,7 +30,7 @@ links:
     url: https://twitter.com/ferradest
 url_code: 'https://colab.research.google.com/drive/1QpLEv8J5bGoGs7Rau4Qw8CSpK5YrRN5u?usp=sharing'
 url_pdf: 'pdf/GCs@SICCS2023.pdf'
-#url_slides: ''
+url_slides: ''
 #url_video: ''
 
 # Markdown Slides (optional).

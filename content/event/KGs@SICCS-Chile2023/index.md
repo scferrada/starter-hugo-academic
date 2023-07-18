@@ -1,5 +1,5 @@
 ---
-title: Una introducción a los Grafos de Conocimiento
+title: Una Introducción a los Grafos de Conocimiento
 
 event: SICCS-Chile 2023
 event_url: https://sicss.io/2023/chile/
@@ -10,7 +10,7 @@ abstract: 'Los grafos de conocimiento (GCs) han ido ganando popularidad tanto en
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-06-18T09:30:00Z-03:00'
+date: '2023-06-18T09:30:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 

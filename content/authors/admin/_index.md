@@ -46,8 +46,10 @@ title: Sebastián Ferrada
 first_name: Sebastián
 email: ""
 ---
-Hola! I'm Sebastián, a Postdoctoral Researcher at the Department of Computer Science of Universidad de Chile. I'm doing research on Multimodal Knowledge Graphs and Federated Graph databases.
-Previously, I worked at Linköping University, where I did research on the interoperability among different graph database models.
-I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, proposing a self-similarity join algorithm and a novel similarity join operator for SPARQL Databases.
-I really enjoy teaching; I'm currently lecturing the Databases course and will lecture the Algorithms and Data Structures course next semester.
+Hola! I'm Sebastián, a Postdoctoral Researcher at the Department of Computer Science of Universidad de Chile where 
+I'm doing research on Federated and Heterogeneous Graph Databases and Similarity-based applications.
+Previously, I worked at Linköping University, Sweden, where I studied the interoperability among different graph database models.
+I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, proposing a self-similarity join algorithm and a novel similarity join operator for SPARQL.
+I really enjoy teaching; I'm currently lecturing the Algorithms and Data Structures course.
+I'm part of the Editorial Board of the Open Access Journal (Transactions on Graph Data and Knowledge)[https://tgdk.org].
 {style="text-align: justify;"}

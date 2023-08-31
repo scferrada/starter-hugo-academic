@@ -51,5 +51,5 @@ I'm doing research on Federated and Heterogeneous Graph Databases and Similarity
 Previously, I worked at Linköping University, Sweden, where I studied the interoperability among different graph database models.
 I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, proposing a self-similarity join algorithm and a novel similarity join operator for SPARQL.
 I really enjoy teaching; I'm currently lecturing the Algorithms and Data Structures course.
-I'm part of the Editorial Board of the Open Access Journal (Transactions on Graph Data and Knowledge)[https://tgdk.org].
+I'm part of the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://tgdk.org).
 {style="text-align: justify;"}

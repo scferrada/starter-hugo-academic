@@ -13,7 +13,7 @@ date: '2017-10-23T09:30:00Z'
 
 #links:
 #  - name: see
-url: https://iswc2017.ai.wu.ac.at/program/awards/
+url: http://iswc2017.ai.wu.ac.at/program/awards/
 ---
 
 for *Answering Visuo-semantic Queries with IMGpedia*, at ISWC 2017.

@@ -13,7 +13,7 @@ date: '2023-10-31T09:30:00Z'
 
 links:
   - name: website
-    url: 
+    url: https://twitter.com/Sijin_Cheng/status/1719810798925594862
 ---
 
 For the paper "Considering Vocabulary Mappings in Query Plans for Federations of RDF Data Sources", 

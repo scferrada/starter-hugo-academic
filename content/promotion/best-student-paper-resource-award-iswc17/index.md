@@ -13,4 +13,4 @@ links:
     url: http://iswc2017.ai.wu.ac.at/program/awards/
 ---
 
-For the paper *IMGpedia: a Linked Dataset with Content-based Analysis of Wikimedia Images*, at ISWC 2017.
+For the paper *IMGpedia: a Linked Dataset with Content-based Analysis of Wikimedia Images*, at the 16th International Semantic Web Conference in 2017.

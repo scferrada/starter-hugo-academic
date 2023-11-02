@@ -67,9 +67,9 @@ sections:
       filters:
         folders:
           - promotion
-      design:
-        columns: '2'
-        view: compact
+    design:
+      columns: '2'
+      view: compact
   - block: collection
     id: talks
     content:

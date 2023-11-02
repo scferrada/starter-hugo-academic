@@ -16,4 +16,4 @@ links:
     url: http://iswc2017.ai.wu.ac.at/program/awards/
 ---
 
-For the poster *Answering Visuo-semantic Queries with IMGpedia*, at the 16th International Semantic Web Conference in 2017.
+for *Answering Visuo-semantic Queries with IMGpedia*, at ISWC 2017.

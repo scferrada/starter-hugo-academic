@@ -11,9 +11,9 @@ date: '2017-10-23T09:30:00Z'
 # Is this a featured talk? (true/false)
 #featured: false
 
-#links:
-#  - name: see
-url: http://iswc2017.ai.wu.ac.at/program/awards/
+links:
+  - name: website
+    url: http://iswc2017.ai.wu.ac.at/program/awards/
 ---
 
 for *Answering Visuo-semantic Queries with IMGpedia*, at ISWC 2017.

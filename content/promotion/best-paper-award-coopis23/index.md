@@ -1,6 +1,6 @@
 ---
-title: Best Poster Award
-date: '2017-10-23T09:30:00Z'
+title: Best Paper Award
+date: '2023-10-31T09:30:00Z'
 
 # Schedule page publish date (NOT talk date).
 #publishDate: '2023-06-18T00:00:00Z'
@@ -13,7 +13,8 @@ date: '2017-10-23T09:30:00Z'
 
 links:
   - name: website
-    url: http://iswc2017.ai.wu.ac.at/program/awards/
+    url: https://twitter.com/Sijin_Cheng/status/1719810798925594862
 ---
 
-for *Answering Visuo-semantic Queries with IMGpedia*, at ISWC 2017.
+For the paper "Considering Vocabulary Mappings in Query Plans for Federations of RDF Data Sources", 
+at the 29th International Conference on Cooperative Information Systems in 2023.

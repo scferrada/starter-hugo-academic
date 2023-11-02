@@ -1,6 +1,6 @@
 ---
-title: Best Paper Award
-date: '2023-10-31T09:30:00Z'
+title: First Prize
+date: '2018-10-31T09:30:00Z'
 
 # Schedule page publish date (NOT talk date).
 #publishDate: '2023-06-18T00:00:00Z'
@@ -13,8 +13,8 @@ date: '2023-10-31T09:30:00Z'
 
 links:
   - name: website
-    url: https://twitter.com/Sijin_Cheng/status/1719810798925594862
+    url: https://ingenieria.uchile.cl/noticias/145624/investigadores-del-dcc-obtienen-reconocimiento-en-concurso-clei
 ---
 
-For the paper "Considering Vocabulary Mappings in Query Plans for Federations of RDF Data Sources", 
-at the 29th International Conference on Cooperative Information Systems in 2023.
+For my thesis "IMGpedia: a Large-scale Knowledge-base to Perform Visuo-semantic Queries over Wikimedia Commons Images", 
+at the 25th Latin American Contest of Master Thesis organized by Clei in 2018.

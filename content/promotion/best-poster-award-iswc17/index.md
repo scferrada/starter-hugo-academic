@@ -1,6 +1,6 @@
 ---
 title: Best Poster Award
-date: '2017-10-23T09:30:00Z'
+date: '2017-10-23T09:00:00Z'
 
 # Schedule page publish date (NOT talk date).
 #publishDate: '2023-06-18T00:00:00Z'

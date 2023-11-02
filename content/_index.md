@@ -61,6 +61,16 @@ sections:
       view: compact
       columns: '2'
   - block: collection
+    id: promotion
+	content:
+	  title: Self-promotion
+	  filters:
+	    folders:
+		  - promotion
+	  design:
+	    columns: 2
+		view: list
+  - block: collection
     id: talks
     content:
       title: Recent & Upcoming Talks

@@ -31,7 +31,7 @@ abstract: Similarity join is a key operation in metric databases. It retrieves a
 tags:
 - Approximated Nearest Neighbors
 - Similarity Joins
-featured: true
+featured: false
 
 # links:
 # - name: ""

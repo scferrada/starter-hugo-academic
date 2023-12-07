@@ -1,5 +1,5 @@
 ---
-title: Best Student Paper, Resources Track
+title: Best Student Paper Award, Resources Track
 date: '2017-10-23T09:30:00Z'
 
 # Schedule page publish date (NOT talk date).

@@ -19,7 +19,7 @@ social:
     link: https://github.com/scferrada
   - icon: cv
     icon_pack: ai
-    link: uploads/cv.pdf
+    link: uploads/resume.pdf
 organizations:
   - name: Department of Computer Science
     url: http://dcc.uchile.cl

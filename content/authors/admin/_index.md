@@ -21,8 +21,8 @@ social:
     icon_pack: ai
     link: uploads/resume.pdf
 organizations:
-  - name: Department of Computer Science
-    url: http://dcc.uchile.cl
+  - name: Data & Artificial Intelligence Initiative 
+    url: http://idia.uchile.cl
   - name: Universidad de Chile
     url: https://www.uchile.cl/
 education:
@@ -40,17 +40,17 @@ superuser: true
 status:
   icon: ☕️
 last_name: Ferrada
-role: Postdoctoral Researcher
+role: Assistant Professor
 highlight_name: true
 title: Sebastián Ferrada
 first_name: Sebastián
 email: ""
 ---
-Hola! I'm Sebastián, a Postdoctoral Researcher at the Department of Computer Science of Universidad de Chile where 
-I'm doing research on Graph Databases and Similarity-based applications.
-Previously, I worked at Linköping University, Sweden, where I studied the interoperability among different graph database models.
+Hola! I'm Sebastián, an Assistant Professor at the Data & Artificial Intelligence Initiative of Universidad de Chile, where 
+I'm doing research on the life cycle of Knowledge Graphs.
+Previously, I worked at the Department of Computer Science at Universidad de Chile, and earlier at Linköping University, Sweden.
 I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, 
 proposing a self-similarity join algorithm and novel similarity join and clustering operators for SPARQL.
-I really enjoy teaching; I'm currently lecturing the Algorithms and Data Structures course.
+#I really enjoy teaching; I'm currently lecturing the Algorithms and Data Structures course.
 I'm part of the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://www.dagstuhl.de/en/publishing/series/details/tgdk).
 {style="text-align: justify;"}

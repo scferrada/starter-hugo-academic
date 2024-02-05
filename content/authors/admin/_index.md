@@ -47,10 +47,9 @@ first_name: Sebastián
 email: ""
 ---
 Hola! I'm Sebastián, an Assistant Professor at the Data & Artificial Intelligence Initiative of Universidad de Chile, where 
-I'm doing research on the life cycle of Knowledge Graphs.
+I'm doing research on Knowledge Graphs: how to extract, manage and utilize them for better querying, browsing, and AI applications.
 Previously, I worked at the Department of Computer Science at Universidad de Chile, and earlier at Linköping University, Sweden.
 I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, 
 proposing a self-similarity join algorithm and novel similarity join and clustering operators for SPARQL.
-#I really enjoy teaching; I'm currently lecturing the Algorithms and Data Structures course.
 I'm part of the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://www.dagstuhl.de/en/publishing/series/details/tgdk).
 {style="text-align: justify;"}

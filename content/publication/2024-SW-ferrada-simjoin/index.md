@@ -1,13 +1,13 @@
 ---
-title: "An efficient algorithm for approximated self-similarity joins in metric spaces"
+title: "Similarity joins and clustering for SPARQL"
 authors:
 - admin
+- Aidan Hogan
 - Benjamin Bustos
-- Nora Reyes
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2020-02-01T00:00:00Z"
+date: "2024-03-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -20,24 +20,25 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Information Systems*"
+publication: "*Semantic Web Journal*"
 publication_short: ""
 
-abstract: Similarity join is a key operation in metric databases. It retrieves all pairs of elements that are similar. Solving such a problem usually requires comparing every pair of objects of the datasets, even when indexing and ad hoc algorithms are used. We propose a simple and efficient algorithm for the computation of the approximated k nearest neighbor self-similarity join. This algorithm computes Θ(n3∕2) distances and it is empirically shown that it reaches an empirical precision of 46% in real-world datasets. We provide a comparison to other common techniques such as Quickjoin and Locality-Sensitive Hashing and argue that our proposal has a better execution time and average precision.
+abstract: The SPARQL standard provides operators to retrieve exact matches on data, such as graph patterns, filters and grouping. This work proposes and evaluates two new algebraic operators for SPARQL 1.1 that return similarity-based results instead of exact results. First, a similarity join operator is presented, which brings together similar mappings from two sets of solution mappings. Second, a clustering solution modifier is introduced, which instead of grouping solution mappings according to exact values, brings them together by using similarity criteria. For both cases, a variety of algorithms are proposed and analysed, and use-case queries that showcase the relevance and usefulness of the novel operators are presented. For similarity joins, experimental results are provided by comparing different physical operators over a set of real world queries, as well as comparing our implementation to the closest work found in the literature, DBSimJoin, a PostgreSQL extension that supports similarity joins. For clustering, synthetic queries are designed in order to measure the performance of the different algorithms implemented.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Approximated Nearest Neighbors
-- Similarity Joins
+- Similarity Joins in Databases
+- Clustering in Databases
+- SPARQL
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
 url_pdf: 
-url_code: 'https://github.com/scferrada/self-sim-join'
+url_code: 'https://github.com/scferrada/jena'
 url_dataset: ''
 url_poster: ''
 url_project: ''

@@ -32,7 +32,7 @@ tags:
 - Similarity Joins in Databases
 - Clustering in Databases
 - SPARQL
-featured: false
+featured: true
 
 # links:
 # - name: ""

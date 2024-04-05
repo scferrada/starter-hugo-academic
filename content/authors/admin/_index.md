@@ -46,8 +46,8 @@ title: Sebastián Ferrada
 first_name: Sebastián
 email: ""
 ---
-Hola! I'm Sebastián, an Assistant Professor at the Data & Artificial Intelligence Initiative of Universidad de Chile, where 
-I'm doing research on Knowledge Graphs: how to extract, manage and utilize them for better querying, browsing, and AI applications.
+Hola! I'm Sebastián, an Assistant Professor at the [Data & Artificial Intelligence Initiative](http://idia.uchile.cl) of Universidad de Chile, where I'm doing research on Knowledge Graphs: how to extract, manage and utilize them for better querying, browsing, and AI applications.
+I am also a Collaborating Researcher at the [Institute for Foundational Research on Data](http://imfd.cl)
 Previously, I worked at the Department of Computer Science at Universidad de Chile, and earlier at Linköping University, Sweden.
 I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, 
 proposing a self-similarity join algorithm and novel similarity join and clustering operators for SPARQL.

@@ -27,7 +27,7 @@ publication: In SIGMOD 2024 (Demo Track)
 featured: false
 date: 2024-01-01T00:00:00Z
 url_slides: ""
-title:  MillenniumDB: A Multi-modal, Multi-model Graph Database Engine
+title:  "MillenniumDB: A Multi-modal, Multi-model Graph Database Engine"
 tags:
   - MillenniumDB
 publishDate: 2024-01-01T00:00:00Z

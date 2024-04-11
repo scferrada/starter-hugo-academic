@@ -31,7 +31,7 @@ links:
     url: https://twitter.com/ferradest
 #url_code: 'https://colab.research.google.com/drive/1QpLEv8J5bGoGs7Rau4Qw8CSpK5YrRN5u?usp=sharing'
 #url_pdf: 
-url_slides: 'pptx/mirando.pptx'
+url_slides: 'pptx/Mirando.pptx'
 #url_video: ''
 
 # Markdown Slides (optional).
@@ -39,7 +39,7 @@ url_slides: 'pptx/mirando.pptx'
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

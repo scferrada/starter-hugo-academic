@@ -38,7 +38,7 @@ abstract: "Computer Science professors at the University of Chile have found tha
 tags: 
  - Entity-Relationship Diagrams
  - Relational Database Modelling
- -Teaching in Databases
+ - Teaching in Databases
 
 # Display this page in the Featured widget?
 featured: false

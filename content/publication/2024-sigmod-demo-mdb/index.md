@@ -19,7 +19,6 @@ authors:
   - Henry Rosales
   - Etienne Toussiant
 url_dataset: 
-url_project: https://imgpedia.dcc.uchile.cl
 publication_short: In *SIGMOD 2024 (Demo Track)*
 url_source: ""
 url_video: ""
@@ -27,7 +26,7 @@ publication: In SIGMOD 2024 (Demo Track)
 featured: false
 date: 2024-01-01T00:00:00Z
 url_slides: ""
-title:  "MillenniumDB: A Multi-modal, Multi-model Graph Database Engine"
+title:  "MillenniumDB: A Multi-modal, Multi-model Graph Database"
 tags:
   - MillenniumDB
 publishDate: 2024-01-01T00:00:00Z

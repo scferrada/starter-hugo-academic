@@ -18,7 +18,7 @@ all_day: false
 publishDate: '2024-06-16T00:00:00Z'
 
 authors: [admin]
-tags: ['TelarKG', 'Political Archives'']
+tags: ['TelarKG', 'Political Archives']
 
 # Is this a featured talk? (true/false)
 featured: true

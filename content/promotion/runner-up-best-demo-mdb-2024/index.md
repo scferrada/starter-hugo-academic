@@ -1,6 +1,6 @@
 ---
 title: Runner up, Best Demonstration Award
-date: '2024-13-24T09:00:00Z'
+date: '2024-06-13T09:00:00Z'
 
 # Schedule page publish date (NOT talk date).
 #publishDate: '2023-06-18T00:00:00Z'

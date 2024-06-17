@@ -1,5 +1,5 @@
 ---
-title: TelarKG: a Knowledge Graph of Chile's Constitutional Process
+title: "TelarKG: a Knowledge Graph of Chile's Constitutional Process"
 
 event: 7th ACM SIGMOD Join Workshop on on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA) 
 event_url: https://gradesnda.github.io/

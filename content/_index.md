@@ -26,6 +26,7 @@ sections:
     content:
       title: Recent Publications
       text:
+      count: 10
       filters:
         folders:
           - publication

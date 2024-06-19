@@ -34,6 +34,26 @@ sections:
       columns: '2'
       view: citation
   - block: collection
+    id: promotion
+    content:
+      title: Self-promotion
+      filters:
+        folders:
+          - promotion
+    design:
+      columns: '2'
+      view: compact
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
+  - block: collection
     id: posts
     content:
       title: Recent Posts
@@ -60,26 +80,6 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: collection
-    id: promotion
-    content:
-      title: Self-promotion
-      filters:
-        folders:
-          - promotion
-    design:
-      columns: '2'
-      view: compact
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
   - block: contact
     id: contact
     content:

@@ -4,14 +4,14 @@ url_pdf: ""
 publication_types:
   - "0"
 authors:
-  - me
+  - admin
 url_dataset: 
 publication_short: In *International Semantic Web Conference (Poster and Demo Track)*
 url_source: ""
 url_video: ""
 publication: In ISWC 2024 (Poster  and DemoTrack)
 featured: false
-date: 2024-01-01T00:00:00Z
+date: 2024-11-11T00:00:00Z
 url_slides: ""
 title:  "Extracting Graphs from Tables via Conceptual Models"
 tags:

@@ -6,14 +6,14 @@ publication_types:
 authors:
   - Valentina Esteban
   - Ivana Bachmann
-  - me
+  - admin
 url_dataset: 
 publication_short: In *ACM Internet Measurement Conference (Poster Track)*
 url_source: ""
 url_video: ""
 publication: In IMC 2024 (Poster Track)
 featured: false
-date: 2024-01-01T00:00:00Z
+date: 2024-11-04T00:00:00Z
 url_slides: ""
 title:  "The relationship between Autonomous Systems (ASes) is a crucial aspect of the Internet,"
 tags:

@@ -15,7 +15,7 @@ publication: In IMC 2024 (Poster Track)
 featured: false
 date: 2024-11-04T00:00:00Z
 url_slides: ""
-title:  "The relationship between Autonomous Systems (ASes) is a crucial aspect of the Internet,"
+title:  "Application of Graph Neural Networks for Representing and Analyzing Internet Topology via the BGP Protocol"
 tags:
 publishDate: 2024-01-01T00:00:00Z
 url_poster: ""

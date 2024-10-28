@@ -49,9 +49,10 @@ first_name: Sebastián
 email: ""
 ---
 Hola! I'm Sebastián, an Assistant Professor at the [Data & Artificial Intelligence Initiative](http://idia.uchile.cl) of Universidad de Chile, where I'm researching Knowledge Graphs: how to extract, manage and utilize them for better querying, browsing, and AI applications.
-I am also a Collaborating Researcher at the [Institute for Foundational Research on Data](http://imfd.cl)
-Previously, I worked at the Department of Computer Science at Universidad de Chile and earlier at Linköping University, Sweden.
+I am also a Collaborating Researcher at the [Institute for Foundational Research on Data](http://imfd.cl).
+Previously, I was a postdoc at the Department of Computer Science at Universidad de Chile and earlier at Linköping University, Sweden.
 I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, 
 proposing a self-similarity join algorithm and novel similarity join and clustering operators for SPARQL.
-I'm part of the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://www.dagstuhl.de/en/publishing/series/details/tgdk).
+I am part of the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://www.dagstuhl.de/en/publishing/series/details/tgdk).
+I have been honored with a Best Resources Track Student Paper Award and a Best Poster Award at ISWC 2017, and with a Best Paper Award at CoopIS 2023.
 {style="text-align: justify;"}

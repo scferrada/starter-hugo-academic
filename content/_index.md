@@ -88,11 +88,11 @@ sections:
       subtitle:
       text:
       # Contact (add or remove contact options as necessary)
-      email: scferradaa at gmail dot com
+      email: sebastian dot ferrada at uchile dot cl
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: Beauchef 851, Of. BPO 604, Santiago, Chile
+        street: Beauchef 851, Of. BPO 518, Santiago, Chile
         # city: Stanford
         # region: CA
         # postcode: '94305'

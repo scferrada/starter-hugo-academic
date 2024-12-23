@@ -2,7 +2,7 @@
 bio: "Research. Coffee. Lifting."
 interests:
   - Multimedia Databases
-  - Graph Databases and Knowledge Bases
+  - Graph Databases and Knowledge Graphs
   - (Federated) Data Management
 social:
   - icon: twitter
@@ -23,6 +23,8 @@ social:
 organizations:
   - name: Millennium Institute for Foundational Research on Data
     url: http://imfd.cl
+  - name: Chilean National Artificial Intelligence Center
+    url: https://cenia.cl
   - name: Data & Artificial Intelligence Initiative 
     url: http://idia.uchile.cl
   - name: Universidad de Chile
@@ -49,8 +51,8 @@ first_name: Sebastián
 email: ""
 ---
 Hola! I'm Sebastián, an Assistant Professor at the [Data & Artificial Intelligence Initiative](http://idia.uchile.cl) of Universidad de Chile, where I'm researching Knowledge Graphs: how to extract, manage and utilize them for better querying, browsing, and AI applications.
-I am also a Collaborating Researcher at the [Institute for Foundational Research on Data](http://imfd.cl).
-Previously, I was a postdoc at the Department of Computer Science at Universidad de Chile and earlier at Linköping University, Sweden.
+I am also a Collaborating Researcher at the Institute for Foundational Research on Data ([IMFD](http://imfd.cl)) and at the Chilean National Artificial Intelligence Center ([CENIA](http://cenia.cl)). 
+Previously, I was a postdoc at the Department of Computer Science at Universidad de Chile and earlier at the Department of Computer and Information Science at Linköping University, Sweden.
 I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, 
 proposing a self-similarity join algorithm and novel similarity join and clustering operators for SPARQL.
 I am part of the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://www.dagstuhl.de/en/publishing/series/details/tgdk).

@@ -11,7 +11,7 @@ date: "2025-04-27T00:00:00Z"
 #external_link: https://example.org
 
 image:
-  caption: ?
+  caption: Image
   focal_point: Smart
 ---
 

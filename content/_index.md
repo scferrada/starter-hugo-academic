@@ -43,7 +43,7 @@ sections:
         folders:
           - project
     design:
-      columns: '4'
+      columns: '3'
       view: card
   - block: collection
     id: promotion

@@ -41,7 +41,7 @@ sections:
       count: 5
       filters:
         folders:
-          - projects
+          - project
     design:
       columns: '4'
       view: card

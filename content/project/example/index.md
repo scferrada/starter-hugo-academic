@@ -1,9 +1,10 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Desarrollo de Procesos de Inteligencia Artificial en Bases de Datos de Grafos
+summary: Abstract here...
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Machine Learning
+  - Graph Databases
+date: '2024-10-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -12,11 +13,7 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+#links:
 url_code: ''
 url_pdf: ''
 url_slides: ''

@@ -35,6 +35,17 @@ sections:
       columns: '2'
       view: citation
   - block: collection
+    content:
+      title: Projects
+      text:
+      count: 5
+      filters:
+        folders:
+          - projects
+    design:
+      columns: '4'
+      view: card
+  - block: collection
     id: promotion
     content:
       title: Self-promotion

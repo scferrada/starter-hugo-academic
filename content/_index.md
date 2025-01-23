@@ -38,8 +38,6 @@ sections:
     id: project
     content:
       title: Projects
-      text:
-      count: 5
       filters:
         folders:
           - project

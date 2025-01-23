@@ -35,6 +35,7 @@ sections:
       columns: '2'
       view: citation
   - block: collection
+    id: project
     content:
       title: Projects
       text:
@@ -44,7 +45,7 @@ sections:
           - project
     design:
       columns: '1'
-      view: card
+      view: showcase
   - block: collection
     id: promotion
     content:

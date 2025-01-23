@@ -45,7 +45,7 @@ sections:
           - project
     design:
       columns: '1'
-      view: showcase
+      view: card
   - block: collection
     id: promotion
     content:

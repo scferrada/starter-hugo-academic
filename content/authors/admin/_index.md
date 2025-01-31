@@ -17,8 +17,8 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/scferrada
-  - icon: fcfm
-    icon_pack: ai
+  - icon: integral
+    icon_pack: fa
     link: https://ingenieria.uchile.cl/sobre-la-fcfm/organizacion/personas/cuerpo-academico/a-z?qui_id=2969974
   - icon: school-flag
     icon_pack: fa

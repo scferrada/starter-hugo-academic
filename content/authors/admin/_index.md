@@ -17,9 +17,12 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/scferrada
-  - icon: u
-    icon_pack: fa
+  - icon: fcfm
+    icon_pack: ai
     link: https://ingenieria.uchile.cl/sobre-la-fcfm/organizacion/personas/cuerpo-academico/a-z?qui_id=2969974
+  - icon: school-flag
+    icon_pack: fa
+    link: https://portafolio-academico.uchile.cl/perfil/90046-Sebastian-Camilo-Ferrada-Aliaga
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf

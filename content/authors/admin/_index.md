@@ -19,7 +19,7 @@ social:
     link: https://github.com/scferrada
   - icon: u
     icon_pack: fa
-    link:https://ingenieria.uchile.cl/sobre-la-fcfm/organizacion/personas/cuerpo-academico/a-z?qui_id=2969974
+    link: https://ingenieria.uchile.cl/sobre-la-fcfm/organizacion/personas/cuerpo-academico/a-z?qui_id=2969974
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf

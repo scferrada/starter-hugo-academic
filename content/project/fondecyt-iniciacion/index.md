@@ -17,7 +17,7 @@ image:
 
 En este proyecto Fondecyt se sentarán las bases para interpretar y explotar datos que están alojados en bases de datos relacionales como si fueran grafos de conocimiento. El proyecto no solo tiene como objetivo generar un mapeo físico y virtual de una base de datos relacional hacia un grafo de conocimiento, sino que también incluye estudiar cómo optimizar los sistemas gestores de bases de datos relacionales para que puedan, de manera eficiente, ejecutar consultas analíticas de manera nativa, como lo son el cálculo de caminos, conectividad, comunidades y centralidad.
 
-El proyecto estará vigente hasta marzo de 2027 y contempla el desarrollo de las siguientes tesis de magister, las cuales contarán con financiamiento a acordar con cada estudiante. Todas las tesis pueden desembocar en una o más publicaciones, en donde la estudiante tendrá el apoyo financiero para viajar a presentar su propio trabajo.
+El proyecto estará vigente hasta marzo de 2028 y contempla el desarrollo de las siguientes tesis de magister, las cuales contarán con financiamiento a acordar con cada estudiante. Todas las tesis pueden desembocar en una o más publicaciones, en donde la estudiante tendrá el apoyo financiero para viajar a presentar su propio trabajo.
 
 Los temas a ejecutar son los siguientes:
 

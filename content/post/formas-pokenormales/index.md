@@ -26,15 +26,15 @@ Vamos a guiar la explicación a través de una base de datos que mantiene el reg
 <tbody>
 <tr>
 <td>Ash</td>
-<td>\[Pikachu, Caterpie, Charmander, &hellip;]</td>
+<td>[Pikachu, Caterpie, Charmander, &hellip;]</td>
 </tr>
 <tr>
 <td>Misty</td>
-<td>\[Staryu, Goldeen, Starmie, &hellip;]</td>
+<td>[Staryu, Goldeen, Starmie, &hellip;]</td>
 </tr>
 <tr>
 <td>Gary</td>
-<td>\[Krabby, Nidoking, Arcanine, &hellip;]</td>
+<td>[Krabby, Nidoking, Arcanine, &hellip;]</td>
 </tr>
 </tbody>
 </table>
@@ -370,7 +370,7 @@ Output: N # Esquema normalizado en FNBC
 for (R, F) in C:
 	if (R, F) no está en FNBC:
 		tomar X -&gt; Y en F que viola FNBC
-		C = C U (R-X, F1) # F1 son las df sobre los atributos en R-X
+		C = C U (R-Y, F1) # F1 son las df sobre los atributos en R-Y
 		C = C U (XY, F2)  # F2 son las df sobre los atributos en XY
 </code></pre>
 

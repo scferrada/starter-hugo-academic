@@ -127,7 +127,7 @@ Tal vez haya parecido un procedimiento antojadizo, pero la intuición detrás de
 {RUT_padre, fecha_hora_nacimiento} no se considera, pues puede suceder que un hombre tenga hijos con dos mujeres distintas que por coincidencia nacieron el mismo día y a la misma hora.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-En este artículo se considera que si $t$ es una tupla y $X$ es un conjunto atributos, la operación $t\\[X]$ corresponde a la proyección de los atributos $X$ de la tupla $t$, es decir $\pi_X(t)$&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>
+En este artículo se considera que si $t$ es una tupla y $X$ es un conjunto atributos, la operación $t[X]$ corresponde a la proyección de los atributos $X$ de la tupla $t$, es decir $\pi_X(t)$&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>
 </li>
 </ol>
 </div>

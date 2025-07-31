@@ -1,5 +1,5 @@
 ---
-title: "COTTAS: Columnas Triple Table Storage for Efficient and Compressed RDF Management"
+title: "COTTAS: Columnar Triple Table Storage for Efficient and Compressed RDF Management"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here

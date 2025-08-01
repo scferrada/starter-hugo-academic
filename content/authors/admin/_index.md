@@ -29,7 +29,7 @@ social:
 organizations:
   - name: Millennium Institute for Foundational Research on Data
     url: http://imfd.cl
-  - name: Chilean National Center for Artificial Intelligence Research
+  - name: National Center for Artificial Intelligence Research
     url: https://cenia.cl
   - name: Data & Artificial Intelligence Initiative 
     url: http://idia.uchile.cl
@@ -56,11 +56,9 @@ title: Sebastián Ferrada
 first_name: Sebastián
 email: ""
 ---
-Hola! I'm Sebastián, an Assistant Professor at the [Data & Artificial Intelligence Initiative](http://idia.uchile.cl) of Universidad de Chile, where I'm researching Knowledge Graphs: how to extract, manage and utilize them for better querying, browsing, and AI applications.
-I am also a Collaborating Researcher at the Institute for Foundational Research on Data ([IMFD](http://imfd.cl)) and at the Chilean National Center for Artificial Intelligence Research ([CENIA](http://cenia.cl)). 
-Previously, I was a postdoc at the Department of Computer Science at Universidad de Chile and earlier at the Department of Computer and Information Science at Linköping University, Sweden.
-I obtained my PhD from Universidad de Chile in 2021 with my thesis: Similarity-based Web Queries, 
-proposing a self-similarity join algorithm and novel similarity join and clustering operators for SPARQL.
-I am part of the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://www.dagstuhl.de/en/publishing/series/details/tgdk).
-I have been honored with a Best Resources Track Student Paper Award and a Best Poster Award at ISWC 2017, and with a Best Paper Award at CoopIS 2023.
+I'm Sebastián, an Assistant Professor at the [Data & Artificial Intelligence Initiative](http://idia.uchile.cl) of Universidad de Chile, where I research Knowledge Graphs — focusing on their extraction, management, and use for querying, browsing, and AI applications. I am also a Young Researcher at the Institute for Foundational Research on Data ([IMFD](http://imfd.cl)) and a Collaborating Researcher at the National Center for Artificial Intelligence Research (([CENIA](http://cenia.cl))).
+
+Before joining the faculty, I was a postdoctoral researcher at the Department of Computer Science at Universidad de Chile and, earlier, at the Department of Computer and Information Science at Linköping University, Sweden. I obtained my PhD from Universidad de Chile in 2021 with a thesis on similarity-based web queries, where I proposed a self-similarity join algorithm and new similarity join and clustering operators for SPARQL. During my master's studies, I created [IMGpedia](http://imgpedia.dcc.uchile.cl), a large-scale multimedia knowledge graph that won first place in the Latin American Master Thesis Competition (CLEI 2017).
+
+I serve on the Editorial Board of the Open Access Journal [Transactions on Graph Data and Knowledge](https://www.dagstuhl.de/en/publishing/series/details/tgdk), and currently lead a Fondecyt project on graph data management. My work has been recognized with multiple awards, including Best Paper at CoopIS 2023 and both Best Student Paper (Resources Track) and Best Poster at ISWC 2017.
 {style="text-align: justify;"}

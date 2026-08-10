@@ -1,9 +1,15 @@
 - date: "2026-08-04"
   title: ISWC Industry Track paper accepted
   text: "Our short article describing [Maqui.ai](http://maqui.ai) was accepted to the Industry Track of ISWC 2026. Maqui is an IMFD start up that helps users find and navigate the legal bodies that apply to a given problem by combining a legal knowledge graph with graph-augmented retrieval-augmented generation."
-- date: "2026-06-17"
+- date: "2026-07-17"
   title: ISWC paper accepted
   text: "Our article *froGQL: Worst-Case Optimal Joins and Type-Driven Optimization for Lightweight GQL* was accepted to the Resources Track of the 25th International Semantic Web Conference. I will be presenting it in October, in Bari, Italy."
+- date: "2026-06-08"
+  title: Fondef IDeA I+D adjudicated
+  text: "Under the direction of Eduardo Graells, we will be developing [Colibrí](https://comunicaciones.dcc.uchile.cl/news/1210-investigadores-del-dcc-se-adjudican-proyecto-idea-id-2026/): a platform for data analysis and visualization for the Municipality of Independencia."
+- date: "2026-06-01"
+  title: I'm Joining the Department of Computer Science (DCC)!
+  text: "As of today, I am joining the DCC as an Assistant Professor. This occurs complementing my current position at the Data and Artificial Intelligence Initiative. Yu can read more [here](https://comunicaciones.dcc.uchile.cl/news/1211-investigador-sebastian-ferrada-se-incorpora-como-academico-dccidia/) (in Spanish)"
 - date: "2026-03-25"
   title: Editorial Board Member
   text: I was invited to join the Editorial Board of the Semantic Web Journal.

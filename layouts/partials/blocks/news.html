@@ -1,12 +1,9 @@
-<div class="section-heading col-12 mb-3 text-center">
-  <h1 class="mb-0">{{ .content.title | default "Latest News" | markdownify }}</h1>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+  <h1 class="mb-0">{{ .content.title | default "Latest News" | markdownify | emojify }}</h1>
 </div>
-
-<div class="row justify-content-center">
-  <div class="col-12 col-lg-8">
-    {{ partial "news_list.html" (dict "limit" 10) }}
-    <p class="news-more">
-      <a href="{{ "news/" | relURL }}">See all news →</a>
-    </p>
-  </div>
+<div class="col-12 col-lg-8">
+  {{ partial "news_list.html" (dict "limit" 10) }}
+  <p class="news-more">
+    <a href="{{ "news/" | relURL }}">See all news →</a>
+  </p>
 </div>

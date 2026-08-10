@@ -43,7 +43,7 @@ sections:
           - project
     design:
       columns: '1'
-      view: card
+      view: list
   - block: collection
     id: promotion
     content:
@@ -59,7 +59,7 @@ sections:
     content:
       title: Latest News
     design:
-      columns: "2"
+      columns: "1"
   - block: collection
     id: talks
     content:

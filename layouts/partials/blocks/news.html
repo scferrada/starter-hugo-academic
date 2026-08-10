@@ -1,6 +1,9 @@
-<div class="row">
-  <div class="col-12">
-    {{ with .content.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+<div class="section-heading col-12 mb-3 text-center">
+  <h1 class="mb-0">{{ .content.title | default "Latest News" | markdownify }}</h1>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-12 col-lg-8">
     {{ partial "news_list.html" (dict "limit" 10) }}
     <p class="news-more">
       <a href="{{ "news/" | relURL }}">See all news →</a>

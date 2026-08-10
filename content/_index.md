@@ -59,7 +59,7 @@ sections:
     content:
       title: Latest News
     design:
-      columns: "1"
+      columns: "2"
   - block: collection
     id: talks
     content:

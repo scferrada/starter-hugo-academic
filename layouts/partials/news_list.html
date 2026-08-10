@@ -1,0 +1,10 @@
+{{ $limit := .limit | default 9999 }}
+{{ $news := sort site.Data.news "date" "desc" }}
+<div class="news-list">
+  {{ range first $limit $news }}
+  <div class="news-item">
+    <span class="news-date">{{ (time .date).Format "Jan 2, 2006" }}</span>
+    <span class="news-text"><strong>{{ .title }}</strong>{{ with .text }} — {{ . | markdownify }}{{ end }}</span>
+  </div>
+  {{ end }}
+</div>

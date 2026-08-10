@@ -1,0 +1,20 @@
+.news-item {
+  padding: 0.25rem 0;
+  border: none;
+  box-shadow: none;
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 6.5rem;
+  color: #666;
+  font-variant-numeric: tabular-nums;
+}
+
+.news-text p {
+  display: inline;   /* keeps markdownified text on the same line */
+}
+
+.news-more {
+  margin-top: 0.75rem;
+}

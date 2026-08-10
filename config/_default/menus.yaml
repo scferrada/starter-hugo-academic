@@ -16,8 +16,8 @@ main:
   - name: Self-promotion
     url: '#promotion'
     weight: 50
-  - name: Posts
-    url: '#posts'
+  - name: News
+    url: /news/
     weight: 60
   - name: Talks
     url: '#talks'

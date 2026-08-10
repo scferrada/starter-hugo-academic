@@ -17,7 +17,7 @@ main:
     url: '#promotion'
     weight: 50
   - name: News
-    url: /news/
+    url: '#news'
     weight: 60
   - name: Talks
     url: '#talks'

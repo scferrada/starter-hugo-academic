@@ -1,3 +1,6 @@
+- date: "2026-08-04"
+  title: ISWC Industry Track paper accepted
+  text: "Our short article describing [Maqui.ai](http://maqui.ai) was accepted to the Industry Track of ISWC 2026. Maqui is an IMFD start up that helps users find and navigate the legal bodies that apply to a given problem by combining a legal knowledge graph with graph-augmented retrieval-augmented generation."
 - date: "2026-06-17"
   title: ISWC paper accepted
   text: "Our article *froGQL: Worst-Case Optimal Joins and Type-Driven Optimization for Lightweight GQL* was accepted to the Resources Track of the 25th International Semantic Web Conference. I will be presenting it in October, in Bari, Italy."

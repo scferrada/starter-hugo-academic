@@ -54,6 +54,12 @@ sections:
     design:
       columns: '2'
       view: compact
+  - block: news
+    id: news
+    content:
+      title: Latest News
+    design:
+      columns: "1"
   - block: collection
     id: talks
     content:

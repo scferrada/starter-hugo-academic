@@ -56,7 +56,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'pptx/GraphSimSearch-ISWC2025.pptx'
 url_source: ''
 url_video: ''
 

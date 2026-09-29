@@ -1,0 +1,37 @@
+# Press appearances (TV, radio, podcasts). Sorted by date, newest first.
+# `media` is "video" or "audio" and picks the link icon.
+
+- date: "2026-09-15"
+  title: "Hace falta una regulación porque la IA no lo va a hacer por sí sola"
+  outlet: "*La Mañana Informativa*, 24 Horas"
+  text: "TV interview hosted by Carla Zunino on the rapid development of AI and the UN's call to regulate it."
+  media: video
+  url: "https://www.24horas.cl/programas/manana-informativa/sebastian-ferrada-academico-de-la-u-de-chile"
+
+- date: "2026-09-15"
+  title: "Actualidad en inteligencia artificial"
+  outlet: "*Buena Costumbre Prime*, Radio Metropolitan (Concepción)"
+  text: "Interview on current affairs in AI, hosted by Mónica Charpentier."
+  media: video
+  url: "https://www.youtube.com/live/OtDEno5z9HU?si=4SCmcIDyoW7jnqTx"
+
+- date: "2026-08-27"
+  title: "Inteligencia artificial: sus beneficios, riesgos y el futuro que ya estamos construyendo"
+  outlet: "*La Hora del Taco*, Radio Universo"
+  text: "With Carola Varleta and Francesco Gazzella, we discussed Bill Gates' remarks and his concerns about the impact of AI."
+  media: audio
+  url: "https://universo.cl/programas/la-hora-del-taco/inteligencia-artificial-sus-beneficios-riesgos-y-el-futuro-que-ya-estamos-construyendo/"
+
+- date: "2026-07-30"
+  title: "¿Algún día abogados o médicos serán reemplazados por máquinas?"
+  outlet: "*A Bordo* podcast (Radio Runa, La Tercera & Universidad Nacional Andrés Bello)"
+  text: "Hosted by Polo Ramírez."
+  media: video
+  url: "https://www.youtube.com/watch?v=xHQJ2SCC_R0"
+
+- date: "2026-07-24"
+  title: "Chatbots religiosos"
+  outlet: "*Buena Costumbre Prime*, Radio Metropolitan (Concepción)"
+  text: "Interview hosted by Mónica Charpentier."
+  media: video
+  url: "https://www.youtube.com/live/q8RnMEWDmiU?si=ZwQXoaqNgYRxQ6pv"

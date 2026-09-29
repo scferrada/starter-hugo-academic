@@ -19,6 +19,9 @@ main:
   - name: News
     url: '#news'
     weight: 60
+  - name: Press
+    url: '#press'
+    weight: 65
   - name: Talks
     url: '#talks'
     weight: 70

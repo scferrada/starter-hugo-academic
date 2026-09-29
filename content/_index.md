@@ -42,8 +42,8 @@ sections:
         folders:
           - project
     design:
-      columns: '1'
-      view: list
+      columns: '2'
+      view: card
   - block: collection
     id: promotion
     content:
@@ -58,6 +58,12 @@ sections:
     id: news
     content:
       title: Latest News
+    design:
+      columns: "1"
+  - block: press
+    id: press
+    content:
+      title: In the Media
     design:
       columns: "1"
   - block: collection

@@ -1,0 +1,20 @@
+{{ $limit := .limit | default 9999 }}
+{{ $press := sort site.Data.press "date" "desc" }}
+<div class="news-list press-list">
+  {{ range first $limit $press }}
+  {{ $media := .media | default "video" }}
+  <div class="news-item press-item">
+    <span class="news-date">{{ (time .date).Format "Jan 2, 2006" }}</span>
+    <span class="news-text">
+      <strong>{{ .title }}</strong>{{ with .outlet }} — {{ . | markdownify }}.{{ end }}
+      {{ with .text }}{{ . | markdownify }}{{ end }}
+      {{ with .url }}
+      <a class="press-link" href="{{ . }}" target="_blank" rel="noopener">
+        <i class="fas {{ if eq $media "audio" }}fa-headphones{{ else }}fa-play-circle{{ end }}"></i>
+        {{ if eq $media "audio" }}Listen{{ else }}Watch{{ end }}
+      </a>
+      {{ end }}
+    </span>
+  </div>
+  {{ end }}
+</div>

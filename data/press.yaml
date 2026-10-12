@@ -1,6 +1,13 @@
 # Press appearances (TV, radio, podcasts). Sorted by date, newest first.
 # `media` is "video" or "audio" and picks the link icon.
 
+- date: "2026-10-06"
+  title: "Inteligencia Artificial"
+  outlet: "*localhost:851* podcast (DCC, Universidad de Chile)"
+  text: "Episode #07 of the student-run podcast of the Department of Computer Science, a conversation together with Claudia López."
+  media: video
+  url: "https://www.youtube.com/watch?v=X6IE1myG8UM"
+
 - date: "2026-09-15"
   title: "Hace falta una regulación porque la IA no lo va a hacer por sí sola"
   outlet: "*La Mañana Informativa*, 24 Horas"

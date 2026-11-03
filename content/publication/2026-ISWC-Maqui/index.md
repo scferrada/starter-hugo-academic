@@ -57,7 +57,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: 'http://maqui.ai'
-url_slides: ''
+url_slides: 'pdf/Maqui-ISWC2026.pdf'
 url_source: ''
 url_video: ''
 

@@ -10,9 +10,9 @@ abstract: "We present froGQL, an open-source graph database that keeps a propert
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2026-10-25T00:00:00Z'
-#date_end: ''
-all_day: true
+date: '2026-10-28T15:30:00Z'
+date_end: '2026-10-28T17:45:00Z'
+all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2026-09-29T00:00:00Z'
@@ -28,9 +28,11 @@ links:
     icon_pack: fab
     name: Follow
     url: https://twitter.com/ferradest
+  - name: Paper
+    url: publication/2026-iswc-avendano-frogql/
 #url_code: ''
 #url_pdf: ''
-url_slides: ''
+url_slides: 'pdf/froGQL-ISWC2026.pdf'
 url_video: ''
 
 slides: ""

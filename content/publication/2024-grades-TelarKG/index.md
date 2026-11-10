@@ -24,7 +24,7 @@ authors:
 #  - 'Equal contribution'
 
 date: '2024-05-01T00:00:00Z'
-doi: 'https://doi.org/10.1145/3661304.3661899'
+doi: '10.1145/3661304.3661899'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-05-01T00:00:00Z'

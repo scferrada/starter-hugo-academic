@@ -17,7 +17,7 @@ authors:
   - Alexander Pinto
   - Juan Reutter
   - Henry Rosales
-  - Etienne Toussiant
+  - Etienne Toussaint
 url_dataset: 
 publication_short: In *SIGMOD 2024 (Demo Track)*
 url_source: ""

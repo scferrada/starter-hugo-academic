@@ -3,7 +3,9 @@
 # `month_only: true` prints "Sep 2025" instead of a full date, for print pieces
 # whose exact day is unknown (the day in `date` is then just a placeholder).
 # Written notes from the DCC, IDIA, FCFM and IMFD communications offices are
-# left out on purpose; uchile.cl and Radio U. de Chile are in.
+# left out on purpose, and so are their copies on uchile.cl (e.g. the
+# Comunicaciones DCC note on Loica). Original uchile.cl pieces and Radio
+# U. de Chile are in.
 
 - date: "2026-11-13"
   title: "La batalla por los data centers: Chile busca atraer inversión pero enfrenta dos grandes «cuellos de botella»"
@@ -25,13 +27,6 @@
   text: "Episode #07 of the student-run podcast of the Department of Computer Science, a conversation together with Claudia López."
   media: video
   url: "https://www.youtube.com/watch?v=X6IE1myG8UM"
-
-- date: "2026-10-05"
-  title: "FCFM presenta iniciativa que busca estimar la demanda de transporte público en el Gran Santiago"
-  outlet: "Universidad de Chile news (uchile.cl)"
-  text: "On Loica, the project led by Eduardo Graells-Garrido to estimate public transport demand in Greater Santiago, and its sibling project Colibrí, in which I take part."
-  media: article
-  url: "https://uchile.cl/noticias/245463/proyecto-busca-estimar-la-demanda-de-transporte-publico-en-el-gran-santiago"
 
 - date: "2026-09-15"
   title: "Hace falta una regulación porque la IA no lo va a hacer por sí sola"

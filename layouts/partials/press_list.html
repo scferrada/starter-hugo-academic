@@ -3,8 +3,9 @@
 <div class="news-list press-list">
   {{ range first $limit $press }}
   {{ $media := .media | default "video" }}
+  {{ $fmt := "Jan 2, 2006" }}{{ if .month_only }}{{ $fmt = "Jan 2006" }}{{ end }}
   <div class="news-item press-item">
-    <span class="news-date">{{ (time .date).Format "Jan 2, 2006" }}</span>
+    <span class="news-date">{{ (time .date).Format $fmt }}</span>
     <span class="news-text">
       <strong>{{ .title }}</strong>{{ with .outlet }} — {{ . | markdownify }}.{{ end }}
       {{ with .text }}{{ . | markdownify }}{{ end }}

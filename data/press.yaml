@@ -1,5 +1,9 @@
 # Press appearances (TV, radio, podcasts, written press). Sorted by date, newest first.
 # `media` is "video", "audio" or "article" and picks the link icon and label.
+# `month_only: true` prints "Sep 2025" instead of a full date, for print pieces
+# whose exact day is unknown (the day in `date` is then just a placeholder).
+# Written notes from the DCC, IDIA, FCFM and IMFD communications offices are
+# left out on purpose; uchile.cl and Radio U. de Chile are in.
 
 - date: "2026-11-13"
   title: "La batalla por los data centers: Chile busca atraer inversión pero enfrenta dos grandes «cuellos de botella»"
@@ -8,12 +12,26 @@
   media: article
   url: "https://www.eldinamo.cl/reportajes/2026/11/13/la-batalla-por-los-data-centers-chile-busca-atraer-inversion-pero-enfrenta-dos-grandes-cuellos-de-botella/"
 
+- date: "2026-10-18"
+  title: "«Las empresas gastan cinco veces más de lo que ganan»: las señales que alimentan el fantasma de una burbuja financiera de la IA"
+  outlet: "*Diario y Radio Universidad de Chile*"
+  text: "Article by Camilo Vega Martínez on whether the AI spending boom is a financial bubble. I commented on how the industry is betting on revenue that is not yet secured."
+  media: article
+  url: "https://radio.uchile.cl/2026/10/18/las-empresas-gastan-cinco-veces-mas-de-lo-que-ganan-las-senales-que-alimentan-el-fantasma-de-una-burbuja-financiera-de-la-ia/"
+
 - date: "2026-10-06"
   title: "Inteligencia Artificial"
   outlet: "*localhost:851* podcast (DCC, Universidad de Chile)"
   text: "Episode #07 of the student-run podcast of the Department of Computer Science, a conversation together with Claudia López."
   media: video
   url: "https://www.youtube.com/watch?v=X6IE1myG8UM"
+
+- date: "2026-10-05"
+  title: "FCFM presenta iniciativa que busca estimar la demanda de transporte público en el Gran Santiago"
+  outlet: "Universidad de Chile news (uchile.cl)"
+  text: "On Loica, the project led by Eduardo Graells-Garrido to estimate public transport demand in Greater Santiago, and its sibling project Colibrí, in which I take part."
+  media: article
+  url: "https://uchile.cl/noticias/245463/proyecto-busca-estimar-la-demanda-de-transporte-publico-en-el-gran-santiago"
 
 - date: "2026-09-15"
   title: "Hace falta una regulación porque la IA no lo va a hacer por sí sola"
@@ -36,6 +54,20 @@
   media: audio
   url: "https://universo.cl/programas/la-hora-del-taco/inteligencia-artificial-sus-beneficios-riesgos-y-el-futuro-que-ya-estamos-construyendo/"
 
+- date: "2026-08-04"
+  title: "Especialista U. de Chile explica el consumo de agua de la IA y su riesgo"
+  outlet: "Universidad de Chile news (uchile.cl)"
+  text: "I explained how AI chatbots use water through data center cooling, and why the risk depends on where data centers are built, what water they use and how much they need per unit of computing."
+  media: article
+  url: "https://uchile.cl/noticias/243103/especialista-u-de-chile-explica-el-consumo--de-agua-de-la-ia-y-su-riesgo"
+
+- date: "2026-07-31"
+  title: "¿Algún día nos reemplazarán las máquinas? Cómo revalorizarse en la era de la IA"
+  outlet: "*La Tercera*"
+  text: "Written preview of the *A Bordo* episode with Polo Ramírez, on how workers can stay relevant as automation advances."
+  media: article
+  url: "https://www.latercera.com/lt-board/noticia/algun-dia-nos-reemplazaran-las-maquinas-como-revalorizarse-en-la-era-de-la-ia/"
+
 - date: "2026-07-30"
   title: "¿Algún día abogados o médicos serán reemplazados por máquinas?"
   outlet: "*A Bordo* podcast (Radio Runa, La Tercera & Universidad Nacional Andrés Bello)"
@@ -49,3 +81,17 @@
   text: "Interview hosted by Mónica Charpentier."
   media: video
   url: "https://www.youtube.com/live/q8RnMEWDmiU?si=ZwQXoaqNgYRxQ6pv"
+
+- date: "2025-09-01"
+  month_only: true
+  title: "Preguntas Comité asesor de niños, niñas y jóvenes"
+  outlet: "*Revista Cambalache* (USACH)"
+  text: "Print edition, no. 10, p. 35."
+  media: article
+
+- date: "2025-08-11"
+  title: "Estudiantes del Liceo Mariano Latorre disfrutaron de una salida pedagógica en Campus Beauchef"
+  outlet: "Universidad de Chile news (uchile.cl)"
+  text: "Students from Liceo Mariano Latorre visited Campus Beauchef through the PACE program and tried out AI language and image models with IDIA."
+  media: article
+  url: "https://uchile.cl/noticias/231089/estudiantes-disfrutaron-de-una-salida-pedagogica-en-campus-beauchef"

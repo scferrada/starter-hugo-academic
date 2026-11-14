@@ -10,8 +10,8 @@
       {{ with .text }}{{ . | markdownify }}{{ end }}
       {{ with .url }}
       <a class="press-link" href="{{ . }}" target="_blank" rel="noopener">
-        <i class="fas {{ if eq $media "audio" }}fa-headphones{{ else }}fa-play-circle{{ end }}"></i>
-        {{ if eq $media "audio" }}Listen{{ else }}Watch{{ end }}
+        <i class="fas {{ if eq $media "audio" }}fa-headphones{{ else if eq $media "article" }}fa-newspaper{{ else }}fa-play-circle{{ end }}"></i>
+        {{ if eq $media "audio" }}Listen{{ else if eq $media "article" }}Read{{ else }}Watch{{ end }}
       </a>
       {{ end }}
     </span>

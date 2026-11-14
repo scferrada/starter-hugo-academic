@@ -1,5 +1,12 @@
-# Press appearances (TV, radio, podcasts). Sorted by date, newest first.
-# `media` is "video" or "audio" and picks the link icon.
+# Press appearances (TV, radio, podcasts, written press). Sorted by date, newest first.
+# `media` is "video", "audio" or "article" and picks the link icon and label.
+
+- date: "2026-11-13"
+  title: "La batalla por los data centers: Chile busca atraer inversión pero enfrenta dos grandes «cuellos de botella»"
+  outlet: "*El Dínamo*"
+  text: "Feature by Francisco Rosales on Chile's bid to attract data center investment. I commented on Brazil's and Uruguay's incentive regimes, the few permanent jobs data centers create, power transmission, water use, and how Chile can capture local value from them."
+  media: article
+  url: "https://www.eldinamo.cl/reportajes/2026/11/13/la-batalla-por-los-data-centers-chile-busca-atraer-inversion-pero-enfrenta-dos-grandes-cuellos-de-botella/"
 
 - date: "2026-10-06"
   title: "Inteligencia Artificial"

@@ -7,6 +7,13 @@
 # Comunicaciones DCC note on Loica). Original uchile.cl pieces and Radio
 # U. de Chile are in.
 
+- date: "2026-11-18"
+  title: "Ciencia de los accidentes y ChatGPT miente"
+  outlet: "*All you need is LAB*, TV Usach and Radio Usach"
+  text: "Interview hosted by Iván Rimassa, as the second guest of the episode, on knowledge graphs, the Web and generative AI."
+  media: video
+  url: "https://www.youtube.com/watch?v=YYuI77JTqT0"
+
 - date: "2026-11-13"
   title: "La batalla por los data centers: Chile busca atraer inversión pero enfrenta dos grandes «cuellos de botella»"
   outlet: "*El Dínamo*"

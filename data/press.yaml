@@ -7,6 +7,13 @@
 # Comunicaciones DCC note on Loica). Original uchile.cl pieces and Radio
 # U. de Chile are in.
 
+- date: "2026-11-24"
+  title: "Nvidia y la industria de la inteligencia artificial"
+  outlet: "*Una Nueva Mañana*, Radio Cooperativa"
+  text: "Radio interview hosted by Cecilia Rovaretti and Sebastián Esnaola on Nvidia's current situation and the AI industry. The link is the programme's archive stream; the interview starts at about 11:45."
+  media: audio
+  url: "https://infiny.live/player/cooperativa/1795527007"
+
 - date: "2026-11-18"
   title: "Ciencia de los accidentes y ChatGPT miente"
   outlet: "*All you need is LAB*, TV Usach and Radio Usach"

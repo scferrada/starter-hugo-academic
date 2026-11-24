@@ -4,15 +4,19 @@
   {{ range first $limit $press }}
   {{ $media := .media | default "video" }}
   {{ $fmt := "Jan 2, 2006" }}{{ if .month_only }}{{ $fmt = "Jan 2006" }}{{ end }}
+  {{/* One link via `url` + `media`, or several via `links: [{url, media}]`. */}}
+  {{ $links := slice }}
+  {{ with .links }}{{ $links = . }}{{ else }}{{ with .url }}{{ $links = slice (dict "url" . "media" $media) }}{{ end }}{{ end }}
   <div class="news-item press-item">
     <span class="news-date">{{ (time .date).Format $fmt }}</span>
     <span class="news-text">
       <strong>{{ .title }}</strong>{{ with .outlet }} — {{ . | markdownify }}.{{ end }}
       {{ with .text }}{{ . | markdownify }}{{ end }}
-      {{ with .url }}
-      <a class="press-link" href="{{ . }}" target="_blank" rel="noopener">
-        <i class="fas {{ if eq $media "audio" }}fa-headphones{{ else if eq $media "article" }}fa-newspaper{{ else }}fa-play-circle{{ end }}"></i>
-        {{ if eq $media "audio" }}Listen{{ else if eq $media "article" }}Read{{ else }}Watch{{ end }}
+      {{ range $links }}
+      {{ $m := .media | default "video" }}
+      <a class="press-link" href="{{ .url }}" target="_blank" rel="noopener">
+        <i class="fas {{ if eq $m "audio" }}fa-headphones{{ else if eq $m "article" }}fa-newspaper{{ else }}fa-play-circle{{ end }}"></i>
+        {{ if eq $m "audio" }}Listen{{ else if eq $m "article" }}Read{{ else }}Watch{{ end }}
       </a>
       {{ end }}
     </span>

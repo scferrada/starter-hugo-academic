@@ -1,5 +1,7 @@
 # Press appearances (TV, radio, podcasts, written press). Sorted by date, newest first.
 # `media` is "video", "audio" or "article" and picks the link icon and label.
+# An item with more than one link uses `links: [{url, media}, ...]` instead of
+# `url` + `media`; each link gets its own icon and label.
 # `month_only: true` prints "Sep 2025" instead of a full date, for print pieces
 # whose exact day is unknown (the day in `date` is then just a placeholder).
 # Written notes from the DCC, IDIA, FCFM and IMFD communications offices are
@@ -8,11 +10,14 @@
 # U. de Chile are in.
 
 - date: "2026-11-24"
-  title: "Nvidia y la industria de la inteligencia artificial"
+  title: "¿Por qué Jensen Huang y Nvidia son tan valiosos?"
   outlet: "*Una Nueva Mañana*, Radio Cooperativa"
-  text: "Radio interview hosted by Cecilia Rovaretti and Sebastián Esnaola on Nvidia's current situation and the AI industry. The link is the programme's archive stream; the interview starts at about 11:45."
-  media: audio
-  url: "https://infiny.live/player/cooperativa/1795527007"
+  text: "Radio interview hosted by Cecilia Rovaretti and Sebastián Esnaola on Nvidia, Jensen Huang and the AI industry. The audio is the programme's archive stream, where the interview starts at about 11:45; Cooperativa.cl then published a note with the main points."
+  links:
+    - url: "https://infiny.live/player/cooperativa/1795527007"
+      media: audio
+    - url: "https://www.cooperativa.cl/noticias/tecnologia/industria/ia/por-que-jensen-huang-y-nvidia-son-tan-valiosos/2026-11-24/124030.html"
+      media: article
 
 - date: "2026-11-18"
   title: "Ciencia de los accidentes y ChatGPT miente"

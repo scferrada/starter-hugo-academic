@@ -9,6 +9,13 @@
 # Comunicaciones DCC note on Loica). Original uchile.cl pieces and Radio
 # U. de Chile are in.
 
+- date: "2026-11-27"
+  title: "Hackeos con inteligencia artificial"
+  outlet: "*Buena Costumbre Prime*, Radio Metropolitan (Concepción)"
+  text: "Interview hosted by Mónica Charpentier on AI-powered hacking. The link is the full programme on YouTube; the interview starts at 12:34."
+  media: video
+  url: "https://www.youtube.com/watch?v=ZuQYAhkonO8&t=754s"
+
 - date: "2026-11-24"
   title: "¿Por qué Jensen Huang y Nvidia son tan valiosos?"
   outlet: "*Una Nueva Mañana*, Radio Cooperativa"
@@ -18,13 +25,6 @@
       media: audio
     - url: "https://www.cooperativa.cl/noticias/tecnologia/industria/ia/por-que-jensen-huang-y-nvidia-son-tan-valiosos/2026-11-24/124030.html"
       media: article
-
-- date: "2026-11-20"
-  title: "Hackeos con inteligencia artificial"
-  outlet: "*Buena Costumbre Prime*, Radio Metropolitan (Concepción)"
-  text: "Interview hosted by Mónica Charpentier on AI-powered hacking. The link is the full programme on YouTube; the interview starts at 12:34."
-  media: video
-  url: "https://www.youtube.com/watch?v=ZuQYAhkonO8&t=754s"
 
 - date: "2026-11-18"
   title: "Ciencia de los accidentes y ChatGPT miente"

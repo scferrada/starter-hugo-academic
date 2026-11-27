@@ -19,6 +19,13 @@
     - url: "https://www.cooperativa.cl/noticias/tecnologia/industria/ia/por-que-jensen-huang-y-nvidia-son-tan-valiosos/2026-11-24/124030.html"
       media: article
 
+- date: "2026-11-20"
+  title: "Hackeos con inteligencia artificial"
+  outlet: "*Buena Costumbre Prime*, Radio Metropolitan (Concepción)"
+  text: "Interview hosted by Mónica Charpentier on AI-powered hacking. The link is the full programme on YouTube; the interview starts at 12:34."
+  media: video
+  url: "https://www.youtube.com/watch?v=ZuQYAhkonO8&t=754s"
+
 - date: "2026-11-18"
   title: "Ciencia de los accidentes y ChatGPT miente"
   outlet: "*All you need is LAB*, TV Usach and Radio Usach"
